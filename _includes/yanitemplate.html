@@ -1,9 +1,33 @@
 <!-- Expects "yani" to be defined with the attendant variables. -->
 <section class="post">
-  {{ yani.content }}
-  <hr>
-  {{ yani.authors }}
-  <hr>
-  {{ yani.implementors }}
-  WOWOWO
+  <div class="primary">
+    <h3 class="yanititle">#{{ yani.title }}</h3>
+    <div class="yanicontent">
+      {{ yani.content }}
+    </div>
+  </div>
+  <div class="extras">
+    <div class="authors">
+      By:
+      {% for author in yani.authors %}
+        <span class="author {{ author }}">{{ author }}</span>
+      {% endfor %}
+    </div>
+    {% if yani.intended.size != 0 %}
+      <div class="intended">
+        Intended for:
+        {% for variant in yani.intended %}
+          <span class="variant {{ variant }}">{{ variant }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if yani.implementors.size != 0 %}
+      <div class="implementors">
+        Implemented in:
+        {% for variant in yani.implementors %}
+          <span class="variant {{ variant }}">{{ variant }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
 </section>
