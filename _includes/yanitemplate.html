@@ -1,33 +1,33 @@
 <!-- Expects "yani" to be defined with the attendant variables. -->
 <section class="post">
-  <div class="primary">
+  <div class="firstline">
     <h3 class="yanititle">#{{ yani.title }}</h3>
-    <div class="yanicontent">
-      {{ yani.content }}
+    <div class="righttitle">
+      <div class="authors">
+        {% for author in yani.authors %}
+          <span class="author {{ author }}">{{ author }}</span>
+        {% endfor %}
+      </div>
+      &nbsp;&middot;&nbsp;
+      <div class="intended">
+      {% if yani.categories.size != 0 %}
+          {% for variant in yani.categories %}
+            <span class="variant {{ variant }}">{{ variant }}</span>
+          {% endfor %}
+      {% else %}
+        <span class="variant vanilla">vanilla</span>
+      {% endif %}
+      </div>
     </div>
   </div>
-  <div class="extras">
-    <div class="authors">
-      By:
-      {% for author in yani.authors %}
-        <span class="author {{ author }}">{{ author }}</span>
+  <div class="yanicontent">
+    {{ yani.content }}
+  </div>
+  {% if yani.tags.size != 0 %}
+    <div class="tags">
+      {% for tag in yani.tags %}
+        <span class="tag">{{ tag }}</span>
       {% endfor %}
     </div>
-    {% if yani.intended.size != 0 %}
-      <div class="intended">
-        Intended for:
-        {% for variant in yani.intended %}
-          <span class="variant {{ variant }}">{{ variant }}</span>
-        {% endfor %}
-      </div>
-    {% endif %}
-    {% if yani.implementors.size != 0 %}
-      <div class="implementors">
-        Implemented in:
-        {% for variant in yani.implementors %}
-          <span class="variant {{ variant }}">{{ variant }}</span>
-        {% endfor %}
-      </div>
-    {% endif %}
-  </div>
+  {% endif %}
 </section>

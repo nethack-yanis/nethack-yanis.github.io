@@ -3,12 +3,12 @@ defaults:
     # All YANIs (i.e. all posts) share these default values.
     scope:
       path: ""
-      type: "posts"
     values:
       layout: "default"
-      category: ["vanilla"]
-      implementors: []
 
+# Set up YANIs as a collection so the files can be in _yanis/ and named 1.md,
+# 2.md, etc instead of having to have them in _posts/ and given date-based
+# filenames.
 collections:
   yanis:
     output: true

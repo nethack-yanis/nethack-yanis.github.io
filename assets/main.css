@@ -19,6 +19,13 @@ a.pagetitle {
     margin-left: 0.5em;
 }
 
+main {
+    max-width:70%;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* page header */
 header {
     text-align: center;
@@ -34,16 +41,24 @@ section.post {
     display:block;
     overflow:auto;
 }
+div.righttitle {
+    display: inline;
+    float: right;
+}
+div.authors {
+    display: inline;
+}
+div.intended {
+    display: inline;
+}
 h3.yanititle {
     margin:0;
-}
-div.primary {
-    width:75%;
-    float:left;
+    display: inline;
 }
 
 .extras {
     float: right;
+    vertical-align:center;
     /* min-width: 20%; */
 }
 
@@ -61,23 +76,42 @@ div.primary {
     display:block;
 }
 
-.author, .variant {
-    padding: 0.2em 0.5em;
-    border: 1px #666 solid;
+.author {
+    font-size:90%;
+    padding: 0.1em 0.3em;
+    border: 2px #99e solid;
+    border-radius: 3px;
+    color: #55b;
+    /* background-color: #bbb; */
+    display: inline-block;
+}
+
+.variant {
+    padding: 0.1em 0.3em;
+    border: 2px black solid;
+    color: black;
+    /* background-color: #bbb; */
+    display: inline-block;
+}
+
+.tag {
+    font-size:80%;
+    padding: 0.1em 0.2em;
+    border: 1px #888 solid;
     border-radius: 4px;
-    background-color: #bbb;
+    color: #888;
     display: inline-block;
 }
 
 /* specific authors */
-.aosdict {
-    background-color: #22f;
-    color: #fff;
-}
+/* .aosdict { */
+/*     background-color: #22f; */
+/*     color: #fff; */
+/* } */
 
 /* specific variants */
-.GruntHack {
-    background-color: #f90;
-    border-color: #a60;
-}
+/* .GruntHack { */
+/*     background-color: #f90; */
+/*     border-color: #a60; */
+/* } */
 
