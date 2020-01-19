@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h2>100 Most Recent Ideas</h2>
+<p>If you need to see more, you can browse the list of
+<a href="all.html">all ideas ever uploaded</a>, but WARNING - it'll be a huge page!
+</p>
+{% for yani in site.yanis reversed limit:100 %}
+  {% include yanitemplate.html %}
+{% endfor %}
