@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% assign all_authors = site.yanis | map: "authors" | join: ',' | split: ',' | uniq | sort_natural %}
+<h2>All Authors</h2>
+<p>Authors with a color corresponding to a variant contribute primarily to that variant.</p>
+
+<!-- There may be demand for adding a count of an author's contributions. We'll see. -->
+<div class="authors">
+  {% for author in all_authors %}
+    {% include linkedauthor.html %}
+  {% endfor %}
+</div>
+
