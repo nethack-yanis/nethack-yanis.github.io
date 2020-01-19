@@ -11,14 +11,6 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a.pagetitle {
-    margin: 0;
-    vertical-align: middle;
-    font-size: 200%;
-    color:white;
-    margin-left: 0.5em;
-}
-
 main {
     max-width:70%;
     min-width: 800px;
@@ -26,15 +18,43 @@ main {
     margin-right: auto;
 }
 
+
 /* page header */
 header {
     text-align: center;
-    width: 100%;
     background-color: black;
     color: white;
 }
 
-/* idea */
+div.header-table {
+    display:table;
+    width: auto;
+    padding: 5px 5px 0px 5px;
+}
+
+div.headercol {
+    display:table-cell;
+    vertical-align: middle;
+}
+div.headercol:last-child {
+    width:100%;
+    text-align: right;
+    padding-right: 5px;
+}
+div.headercol.nowrap {
+    white-space: nowrap;
+}
+
+.pagetitle {
+    font-family: Times, serif;
+    margin: 0;
+    font-size: 200%;
+    color:white;
+    margin-left: 0.5em;
+}
+
+
+/* format and layout of an idea */
 section.post {
     padding: 0.5em;
     border-bottom: 1px black solid;
@@ -55,13 +75,6 @@ h3.yanititle {
     margin:0;
     display: inline;
 }
-
-.extras {
-    float: right;
-    vertical-align:center;
-    /* min-width: 20%; */
-}
-
 .authors {
     display:block;
     margin-bottom: 0.2em;
@@ -72,17 +85,12 @@ h3.yanititle {
     margin-bottom: 0.2em;
 }
 
-.implementors {
-    display:block;
-}
-
 .author {
     font-size:90%;
     padding: 0.1em 0.3em;
     border: 2px #99e solid;
     border-radius: 3px;
     color: #55b;
-    /* background-color: #bbb; */
     display: inline-block;
 }
 
@@ -90,7 +98,6 @@ h3.yanititle {
     padding: 0.1em 0.3em;
     border: 2px black solid;
     color: black;
-    /* background-color: #bbb; */
     display: inline-block;
 }
 
