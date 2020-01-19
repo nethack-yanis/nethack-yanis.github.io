@@ -110,12 +110,17 @@ h3.yanititle {
     margin-bottom: 0.2em;
 }
 
+div.yanicontent p, div.yanicontent ul, div.yanicontent ol {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
 .author {
     font-size:90%;
     padding: 0.1em 0.3em;
-    border: 2px #99e solid;
-    border-radius: 3px;
-    color: #55b;
+    border: 2px #555 solid;
+    border-radius: 5px;
+    color: #555;
     display: inline-block;
 }
 
