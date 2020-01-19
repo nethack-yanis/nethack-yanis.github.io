@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign all_tags = site.yanis | map: "tags" | join: ',' | split: ',' | uniq | sort_natural %}
+<h2>All Tags</h2>
+
+<div class="tags">
+  {% for tag in all_tags %}
+    {% include linkedtag.html %}
+  {% endfor %}
+</div>
+
