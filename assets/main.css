@@ -140,47 +140,41 @@ div.yanicontent p, div.yanicontent ul, div.yanicontent ol {
     display: inline-block;
 }
 
-/* specific authors */
-/* .aosdict { */
-/*     background-color: #22f; */
-/*     color: #fff; */
-/* } */
-
-/* specific variants */
+/* specific variants and their authors */
 /* colors chosen to be the same as the X11 colors in the variant history graph */
 .GruntHack {
     background-color: #ff8c00;
 }
-.SporkHack {
+.SporkHack, .lorimer {
     background-color: #d3d3d3;
 }
-.UnNetHack {
+.UnNetHack, .bhaak {
     background-color: #ffff00;
 }
-.dNetHack {
+.dNetHack, .Chris_ANG, .NeroOneTrueKing, .Tarmunora, .rikersan {
     background-color: #ee82ee;
 }
-.NetHack4 {
+.NetHack4, .ais523 {
     background-color: #ffbbff;
 }
-.NetHackFourk {
+.NetHackFourk, .jonadab {
     background-color: #00ffff;
 }
-.FIQHack {
+.FIQHack, .FIQ {
     background-color: #00cdcd;
 }
-.DynaHack {
+.DynaHack, .tungtn {
     background-color: #ff4500;
 }
-.SLEX {
+.SLEX, .AmyBSOD {
     background-color: #87cefa;
 }
-.xNetHack {
+.xNetHack, .aosdict {
     background-color: #7cfc00;
 }
-.SpliceHack {
+.SpliceHack, .AntiGulp {
     background-color: #66cd00;
 }
-.EvilHack {
+.EvilHack, .K2 {
     background-color: #eb2d53;
 }

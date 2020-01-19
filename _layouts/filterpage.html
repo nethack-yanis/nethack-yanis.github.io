@@ -8,6 +8,7 @@ layout: default
 {% else %}
   <h2>Hmm... this page is broken (it didn't define a tag or author).</h2>
 {% endif %}
+{{ content }}
 {% for yani in site.yanis %}
   {% if yani.tags contains page.tag or yani.authors contains page.author %}
     {% include yanitemplate.html %}
