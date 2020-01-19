@@ -4,6 +4,13 @@ a {
     color: inherit;
 }
 
+p a {
+    color: #77f;
+}
+p a:hover {
+    color:#aaf;
+}
+
 html {
     height: 100%;
 }
