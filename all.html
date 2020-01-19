@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h2>All Short-Form Ideas</h2>
+<p>
+  Note: this page doesn't include the <a href="/bigideas.html">Big Ideas</a>.
+</p>
+{% for yani in site.yanis reversed %}
+  {% include yanitemplate.html %}
+{% endfor %}
