@@ -1,0 +1,23 @@
+<html lang="en-us">
+  {% include head.html %}
+<body>
+  {% include page-header.html %}
+
+  <main>
+    {% if page.tag %}
+      <h2>All ideas tagged "{{ page.tag }}"</h2>
+    {% elsif page.author %}
+      <h2>All ideas with {{ page.author }} as a contributor</h2>
+    {% else %}
+      <h2>Hmm... this page is broken (it didn't define a tag or author).</h2>
+    {% endif %}
+    {% for yani in site.yanis %}
+      {% if yani.tags contains page.tag or yani.authors contains page.author %}
+        {% include yanitemplate.html %}
+      {% endif %}
+    {% endfor %}
+  </main>
+
+  {% include page-footer.html %}
+</body>
+</html>

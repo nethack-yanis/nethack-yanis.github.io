@@ -1,0 +1,16 @@
+Regarding the filter pages system (show all ideas with a given tag/author)
+
+Filter pages can filter on either tag or author, and will list ALL ideas
+for that respective tag or author.
+
+HTML files in the tags/ folder should have this exact front matter:
+layout: filterpage
+tag: [its tag, spaces OK]
+
+Their filename should be the same as the tag but should use underscores in
+place of any spaces. This has no programmatic relation to the tag defined in
+the file, but it does determine the URL.
+
+HTML files in the authors/ folder work on identical principles.
+
+Jekyll cannot generate these files on its own; they must be provided separately.
