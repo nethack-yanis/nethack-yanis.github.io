@@ -98,6 +98,7 @@ div.intended {
 h3.yanititle {
     margin:0;
     display: inline;
+    text-decoration: underline;
 }
 .authors {
     display:block;

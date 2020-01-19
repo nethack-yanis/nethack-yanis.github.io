@@ -1,7 +1,9 @@
 <!-- Expects "yani" to be defined with the attendant variables. -->
 <section class="post">
   <div class="firstline">
-    <h3 class="yanititle">#{{ yani.title }}</h3>
+    <h3 class="yanititle">
+        <a href="/yanis/{{yani.title}}.html">#{{ yani.title }}</a>
+    </h3>
     <div class="righttitle">
       <div class="authors">
         {% for author in yani.authors %}
