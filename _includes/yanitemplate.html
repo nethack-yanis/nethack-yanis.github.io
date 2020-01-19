@@ -5,9 +5,7 @@
     <div class="righttitle">
       <div class="authors">
         {% for author in yani.authors %}
-          <a href="/author/{{author | replace: " ", "_"}}">
-            <span class="author {{ author }}">{{ author }}</span>
-          </a>
+          {% include linkedauthor.html %}
         {% endfor %}
       </div>
       &nbsp;&middot;&nbsp;
