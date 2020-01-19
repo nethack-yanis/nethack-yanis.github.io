@@ -22,4 +22,7 @@ default layout: Top level unique pages and other layouts.
 filterpage layout: Tag and author pages.
 singleidea layout: Individual YANI pages.
 
+================================================================================
 
+Anything including yanitemplate.html must have in-scope a 'yani' variable in
+Liquid.
