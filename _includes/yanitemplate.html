@@ -5,7 +5,9 @@
     <div class="righttitle">
       <div class="authors">
         {% for author in yani.authors %}
-          <span class="author {{ author }}">{{ author }}</span>
+          <a href="/author/{{author | replace: " ", "_"}}">
+            <span class="author {{ author }}">{{ author }}</span>
+          </a>
         {% endfor %}
       </div>
       &nbsp;&middot;&nbsp;
@@ -26,7 +28,9 @@
   {% if yani.tags.size != 0 %}
     <div class="tags">
       {% for tag in yani.tags %}
-        <span class="tag">{{ tag }}</span>
+        <a href="/tag/{{tag | replace: " ", "_"}}">
+          <span class="tag">{{ tag }}</span>
+        </a>
       {% endfor %}
     </div>
   {% endif %}
