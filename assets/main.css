@@ -120,7 +120,7 @@ div.yanicontent p, div.yanicontent ul, div.yanicontent ol {
     padding: 0.1em 0.3em;
     border: 2px #555 solid;
     border-radius: 5px;
-    color: #555;
+    color: black;
     display: inline-block;
 }
 
@@ -147,8 +147,40 @@ div.yanicontent p, div.yanicontent ul, div.yanicontent ol {
 /* } */
 
 /* specific variants */
-/* .GruntHack { */
-/*     background-color: #f90; */
-/*     border-color: #a60; */
-/* } */
-
+/* colors chosen to be the same as the X11 colors in the variant history graph */
+.GruntHack {
+    background-color: #ff8c00;
+}
+.SporkHack {
+    background-color: #d3d3d3;
+}
+.UnNetHack {
+    background-color: #ffff00;
+}
+.dNetHack {
+    background-color: #ee82ee;
+}
+.NetHack4 {
+    background-color: #ffbbff;
+}
+.NetHackFourk {
+    background-color: #00ffff;
+}
+.FIQHack {
+    background-color: #00cdcd;
+}
+.DynaHack {
+    background-color: #ff4500;
+}
+.SLEX {
+    background-color: #87cefa;
+}
+.xNetHack {
+    background-color: #7cfc00;
+}
+.SpliceHack {
+    background-color: #66cd00;
+}
+.EvilHack {
+    background-color: #eb2d53;
+}

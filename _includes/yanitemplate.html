@@ -13,7 +13,7 @@
       <div class="intended">
       {% if yani.categories.size != 0 %}
           {% for variant in yani.categories %}
-            <span class="variant {{ variant }}">{{ variant }}</span>
+            <span class="variant {{ variant | replace: " " "" }}">{{ variant }}</span>
           {% endfor %}
       {% else %}
         <span class="variant vanilla">vanilla</span>
