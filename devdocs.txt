@@ -30,4 +30,6 @@ Liquid.
 ================================================================================
 
 Author names and tags can contain spaces, but cannot contain commas. Variant
-author names cannot contain spaces.
+author names cannot contain spaces. For sanity's sake, they probably shouldn't
+contain other URL-questionable characters, so "vlads tower" is preferred to
+"vlad's tower".
