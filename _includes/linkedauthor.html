@@ -1,3 +1,7 @@
 <a href="/author/{{author | replace: " ", "_"}}">
-<span class="author {{ author }}">{{ author }}</span>
+  {% if site.data.variant_authors contains author %}
+    <span class="author {{ author }}">{{ author }}</span>
+  {% else %}
+    <span class="author">{{ author }}</span>
+  {% endif %}
 </a>
