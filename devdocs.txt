@@ -26,3 +26,8 @@ singleidea layout: Individual YANI pages.
 
 Anything including yanitemplate.html must have in-scope a 'yani' variable in
 Liquid.
+
+================================================================================
+
+Author names and tags can contain spaces, but cannot contain commas. Variant
+author names cannot contain spaces.
