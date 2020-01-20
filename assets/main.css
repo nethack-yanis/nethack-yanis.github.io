@@ -100,6 +100,9 @@ h3.yanititle {
     display: inline;
     text-decoration: underline;
 }
+.firstline {
+    display:block;
+}
 .authors {
     display:block;
     margin-bottom: 0.2em;
@@ -139,6 +142,33 @@ div.yanicontent p, div.yanicontent ul, div.yanicontent ol {
     color: #888;
     display: inline-block;
 }
+
+/* stolen from nethackwiki */
+span.nhsym {
+    font-family: "Courier New","Menlo","DejaVu Sans Mono","Courier",monospace;
+    font-weight: bold;
+}
+.clr-blue          { color:#0000AA; }
+.clr-green         { color:#00AA00; }
+.clr-cyan          { color:#00AAAA; }
+.clr-red           { color:#AA0000; }
+.clr-magenta       { color:#AA00AA; }
+.clr-brown         { color:#AA5500; }
+.clr-lightgray     { color:#AAAAAA; }
+.clr-darkgray      { color:#555555; }
+.clr-brightblue    { color:#5555FF; }
+.clr-brightgreen   { color:#55FF55; }
+.clr-brightcyan    { color:#55FFFF; }
+.clr-orange        { color:#FF5555; }
+.clr-brightmagenta { color:#FF55FF; }
+.clr-yellow        { color:#FFFF55; } /* no clr-white - it won't show */
+
+
+/* specific to the authors list page */
+main > div.authors > a > span {
+    margin-top:0.4em;
+}
+
 
 /* specific variants and their authors */
 /* colors chosen to be the same as the X11 colors in the variant history graph */
