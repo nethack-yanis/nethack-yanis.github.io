@@ -22,7 +22,7 @@ IFS=$(echo -en "\n\b")
 for tag in $(grep --no-filename '^tags' _yanis/*.md | \
              sed -e 's/tags: \[//' -e 's/\]//' -e 's/, /,/g' -e '/^$/ d' | \
              tr ',' '\n' | sort | uniq); do
-  fname=$(echo "tag/$tag.html" | sed 's/ /_/')
+  fname=$(echo "tag/$tag.html" | sed 's/ /_/g')
   if [ ! -e $fname ]; then
     echo --- >> $fname
     echo layout: filterpage >> $fname
