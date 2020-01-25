@@ -1,0 +1,18 @@
+---
+layout: bigidea
+authors: [K2, aosdict, jonadab, ais523]
+---
+
+Cantrips are level 0 spells that cost d2 or d3 power to cast. In order not to let them be unbalancing, they don't train skill and are mostly useless, except in certain circumstances or for low-Pw spellcasters who can't do much of the bigger stuff yet. ais523 suggests that good candidates for cantrips might be things that have little combat use, and whose effects could be duplicated by backtracking or other tedious things, but would be useful to avoid boredom. Given their cheapness, they should probably not train skills, and may not even need spell schools.
+
+Most ideas for cantrips seem to be a little too powerful and would do better off as normal spells (and have also been added as YANIs for normal spells); however, those that seem like they would fit are listed here.
+
+* Increase the odds of monsters dropping a corpse in the next few turns.
+* Create an empty unlocked chest. (This would need some restriction so you can't farm and sell them; perhaps you can only create up to 10 or 20 chests per game with this.)
+* Mark a map square with a symbol, perhaps a comma, that is no different from normal floor but shows up on #overview and the normal map view.
+* Deal some small damage, such as d5 or d6, to a nearby creature. (Acid Bubble from D&D is a nice corresponding cantrip.)
+* Dig out a single square.
+* Create a cancelled hostile yellow light. It cannot explode at you since it is cancelled, so it becomes an autonomous light source of radius 1, which can't follow you down levels like a pet can. Killing it should not grant you any experience; otherwise this would be easily farmable.
+* Light a radius 2 or 3 area permanently, like a weak form of the spell of light.
+* Mage hand: you indicate a direction and the nearest item on the floor in that direction, assuming it's under 100 weight or so, is brought to you and is placed in your inventory. This can be used > to get things out of pits.
+* Create an illusion of yourself at your spot. The illusion never moves. Monsters that see it assume it is you and will attack whichever one is nearer (the illusion is instantly destroyed if attacked).

@@ -1,0 +1,11 @@
+---
+layout: bigidea
+authors: [FIQ, aosdict, ais523, jonadab, NeroOneTrueKing]
+---
+
+The current resistance system is unsatisfying, because most resistances separate the effects of something into a binary outcome: worse effects with no resistance, totally ignorable effects with it. Most resistances also are eat-once-and-be-protected-forever, which is uninteresting in the long term. Proposed solutions to this generally assume that there will be some distinction between resistance and immunity, which offers better (or total) protection but is not normally obtainable as a permanent intrinsic effect. This also enables partial resistances (as found in SporkHack) to be used, though some ideas still treat them as binary - either you have it or you don't. FIQHack has implemented a form of this.
+* Possibly extrinsic immunity isn't as good as inherent immunity.
+* Resistance halves HP damage and cuts attribute loss down to 1 point.
+* Role benefits should probably only be resistance and not immunity.
+* For partial resistance, damage is easy enough to do (express your resistance as a percentage and cut damage by that percentage), but many effects, particularly those protected by MR, are binary, and will be tricky to adapt.
+* Resistances could start at 100% when you get them, but decrease by 1% every time it protects you from something.

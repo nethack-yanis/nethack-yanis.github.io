@@ -4,10 +4,14 @@ a {
     color: inherit;
 }
 
-p a {
+ul {
+    padding-left: 1.5em;
+}
+
+p a, li a {
     color: #77f;
 }
-p a:hover {
+p a:hover, li a:hover {
     color:#aaf;
 }
 
@@ -85,9 +89,19 @@ section.post {
     display:block;
     overflow:auto;
 }
+section.post.bigidea {
+    border-bottom: none;
+    margin-top: 0.5em;
+    text-align:justify;
+}
 div.righttitle {
     display: inline;
     float: right;
+}
+section.post.bigidea div.righttitle {
+    /* overrule the previous rules */
+    display: block;
+    float: none;
 }
 div.authors {
     display: inline;
@@ -95,9 +109,14 @@ div.authors {
 div.intended {
     display: inline;
 }
-h3.yanititle {
+.yanititle {
     margin:0;
     display: inline;
+}
+h2.yanititle {
+    font-size:200%;
+}
+h3.yanititle {
     text-decoration: underline;
 }
 .firstline {
@@ -113,9 +132,16 @@ h3.yanititle {
     margin-bottom: 0.2em;
 }
 
+section.bigidea h3 {
+    margin-bottom: 0;
+}
+
 div.yanicontent p, div.yanicontent ul, div.yanicontent ol {
     margin-top: 0.3em;
     margin-bottom: 0.3em;
+}
+div.yanicontent li {
+    margin-top: 0.3em;
 }
 
 .author {
