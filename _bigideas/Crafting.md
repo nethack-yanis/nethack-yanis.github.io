@@ -36,4 +36,6 @@ ais523 has pointed out that if there's a craftsmen's guild or even scattered cra
 * Fixed, non-simple recipes (e.g. existing scroll crafting is a simple recipe) are a heavy spoiler tax and should be avoided.
 * This could be simple for certain types of items, as in requiring some silver or gold and a diamond to craft a diamond ring, but doesn't explain where any magical effects come from, and also might weirdly tie crafting recipes to randomized appearances which have previously been meaningless.
 * Probably requires a few more "base" crafting materials, some source of leather, some source of wood, etc.
-  * Corpses could decay into bones, which disappear themselves with a longer timeout, but in the meantime can be used to craft bone stuff
+  * Corpses could decay into bones, which disappear themselves with a longer timeout, but in the meantime can be used to craft bone stuff.
+* One of the craftable items should be saddles, because they're very hard to find for non-Knight characters who want to ride.
+* Tallow candles should be relatively easy to make, because they can be made out of fat from slain animals.
