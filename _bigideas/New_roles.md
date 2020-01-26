@@ -1,6 +1,6 @@
 ---
 layout: bigidea
-authors: [Demo, aosdict, Grasshopper, Tarmunora, jonadab, ais523, FIQ, Chris_ANG, NeroOneTrueKing, Luxidream, K2, greqrg]
+authors: [Demo, aosdict, Grasshopper, Tarmunora, jonadab, ais523, FIQ, Chris_ANG, NeroOneTrueKing, Luxidream, K2, greqrg, flump]
 title: "New roles"
 ---
 
@@ -22,6 +22,7 @@ Bards are pretty well-defined as being a music player who is most powerful with 
   * Possibly the bard should be able to discover songs by trial and error, although simple brute forcing is definitely not the way to do it. Maybe all spellbooks start identified.
   * The bard could need to practice the song by using the songbook in order to restore "song memory". Song memory does not work quite like spell memory, it works essentially like direct success rate. There might be some mandatory delay between practices, meaning you can't take an unlearned song and practice it up to 100% immediately. Or there could be a possible failure of practice, maybe a dexterity penalty ("Dumb move! You strain your fingers.") to serve to prevent practice-spam. Playing a song would serve to
   * Songbooks do not eventually go blank, and can be used for practice indefinitely.
+* The bard should possibly be able to sing some of their songs without requiring an instrument.
 
 See also: [Bard implementations](https://nethackwiki.com/wiki/Bard).
 
