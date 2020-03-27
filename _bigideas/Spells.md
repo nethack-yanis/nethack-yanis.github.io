@@ -12,6 +12,9 @@ Most people agree charm monster is too powerful, too low-level, and needs to be 
 * Make it do what the temporary pet code in the Bard patch does: the monster remains tame for a fairly short amount of time and then reverts to whatever it was originally.
 * Split into three spells: pacify monster (peaceful for charisma\*2 turns), charm monster (tame for Charisma\*2 turns), and dominate monster (tame permanently or for a long time).
 * It only works on _monsters_, and doesn't work on intelligent beings.
+* It can't directly tame a hostile monster; it can only pacify it. Peaceful monsters can then be tamed by subsequent casts, but attempting to tame a peaceful intelligent monster may anger it instead. The pacification step is dependent only on monster MR, but the taming depends on the player's level relative to the target. The scroll of taming should remain comparatively powerful.
+* Scale with skill: unskilled attempts to pacify one adjacent monster, basic to pacify all adjacent, skilled to tame one adjacent, and expert to tame all adjacent. All of these are subject to normal monster MR checks.
+* Whatever nerfs do get applied, they should ensure that the scroll of taming is more powerful and reliable than the spell.
 
 ### Making utility spell failure matter
 The problem: casting utility spells at high failure rate, such as identify at 95% fail, is a mere inconvenience to players, since they can sit in a closet with a stack of food and wait for their Pw to recharge until they succeed. This is not really a problem with combat spells, since the penalty for failing to cast the spell correctly is a disadvantage in combat, where time matters.
