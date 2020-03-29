@@ -85,7 +85,6 @@ In addition to its preconditions, each ritual also has some postconditions: comm
 Every time you stop casting a ritual (whether it succeeded or failed), it increments the spellbook's spestudied field; the book will eventually disintegrate after casting it a certain number of times.
 
 ### Miscellaneous
-* Bump the spell of sleep up to level 3 or 4.
 * Wielding a quarterstaff confers the same benefit as wearing a robe but does not stack with it (implemented in FIQHack).
 * Wielding a wand of nothing confers the same benefit as wearing a robe but does not stack with it.
 * Wielding an identified wand which matches a spell (wand of light -> spell of light, wand of death -> finger of death, etc) drastically reduces your failure rate when casting it. Perhaps casting the spell while wielding the matching unidentified wand should identify the wand.
