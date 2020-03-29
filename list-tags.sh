@@ -16,5 +16,5 @@ else
     awk '{ print $1; }' | \
     sort -n | \
     uniq -c | \
-    awk '{ printf("%2s %s\n", $2, $1); }'
+    awk '{ printf("%3s\t%s\n", $2, $1); }'
 fi
