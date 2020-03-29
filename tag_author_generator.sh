@@ -21,8 +21,10 @@ if [ ! -z $1 ]; then
 fi
 
 if [ $authors != $NOTHING ]; then
+  SAVEDIFS=$IFS
+  IFS=$(echo -en "\n\b")
   for author in $(grep --no-filename '^author' _yanis/*.md | \
-                  sed -e 's/authors: \[//' -e 's/\]//' -e 's/, /,/g' | \
+                  sed -e 's/authors: \[//' -e 's/\]//' -e 's/, /,/g' -e 's/"//g' | \
                   tr ',' '\n' | sort | uniq); do
 
     if [ $authors = $PRINT ]; then
@@ -37,8 +39,8 @@ if [ $authors != $NOTHING ]; then
       echo --- >> $fname
       echo "Wrote new file $fname"
     fi
-
   done
+  IFS=$SAVEDIFS
 fi
 
 # Tags can contain spaces; don't let this break the looping.
