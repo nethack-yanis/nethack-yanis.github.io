@@ -34,6 +34,7 @@ main {
     min-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1em;
     flex: 1 0 auto;
 }
 
@@ -177,21 +178,27 @@ div.yanicontent li {
 span.nhsym {
     font-family: "Courier New","Menlo","DejaVu Sans Mono","Courier",monospace;
     font-weight: bold;
+    font-size: large;
+    background-color:black;
+    padding: 0 1px;
 }
-.clr-blue          { color:#0000AA; }
-.clr-green         { color:#00AA00; }
-.clr-cyan          { color:#00AAAA; }
-.clr-red           { color:#AA0000; }
-.clr-magenta       { color:#AA00AA; }
-.clr-brown         { color:#AA5500; }
-.clr-lightgray     { color:#AAAAAA; }
-.clr-darkgray      { color:#555555; }
-.clr-brightblue    { color:#5555FF; }
-.clr-brightgreen   { color:#55FF55; }
-.clr-brightcyan    { color:#55FFFF; }
-.clr-orange        { color:#FF5555; }
-.clr-brightmagenta { color:#FF55FF; }
-.clr-yellow        { color:#FFFF55; } /* no clr-white - it won't show */
+/* colors made brighter than they are on nethackwiki */
+/* note: this assumes a black background */
+.clr-blue          { color:#11F; }
+.clr-green         { color:#0B0; }
+.clr-cyan          { color:#0CC; }
+.clr-red           { color:#F00; }
+.clr-magenta       { color:#D0D; }
+.clr-brown         { color:#C70; }
+.clr-lightgray     { color:#CCC; }
+.clr-darkgray      { color:#888; }
+.clr-brightblue    { color:#88F; }
+.clr-brightgreen   { color:#0F0; }
+.clr-brightcyan    { color:#5FF; }
+.clr-orange        { color:#F75; }
+.clr-brightmagenta { color:#F5F; }
+.clr-yellow        { color:#FF5; }
+.clr-white         { color:#FFF; }
 
 
 /* specific to the authors list page */
