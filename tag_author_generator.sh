@@ -31,7 +31,7 @@ if [ $authors != $NOTHING ]; then
       echo $author
       continue
     fi
-    fname="author/$author.html"
+    fname=$(echo "author/$author.html" | sed 's/ /_/g')
     if [ ! -e $fname ]; then
       echo --- >> $fname
       echo layout: filterpage >> $fname
@@ -48,8 +48,8 @@ if [ $tags != $NOTHING ]; then
   SAVEDIFS=$IFS
   IFS=$(echo -en "\n\b")
   for tag in $(grep --no-filename '^tags' _yanis/*.md | \
-              sed -e 's/tags: \[//' -e 's/\]//' -e 's/, /,/g' -e '/^$/ d' | \
-              tr ',' '\n' | sort | uniq); do
+               sed -e 's/tags: \[//' -e 's/\]//' -e 's/, /,/g' -e '/^$/ d' | \
+               tr ',' '\n' | sort | uniq); do
 
     if [ $tags = $PRINT ]; then
       echo $tag
