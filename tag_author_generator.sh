@@ -27,11 +27,15 @@ if [ $authors != $NOTHING ]; then
                   sed -e 's/authors: \[//' -e 's/\]//' -e 's/, /,/g' -e 's/"//g' | \
                   tr ',' '\n' | sort | uniq); do
 
+    fname=$(echo "author/$author.html" | sed 's/ /_/g')
     if [ $authors = $PRINT ]; then
-      echo $author
+      if [ -e $fname ]; then
+        echo $author
+      else
+        echo NEW: $author
+      fi
       continue
     fi
-    fname=$(echo "author/$author.html" | sed 's/ /_/g')
     if [ ! -e $fname ]; then
       echo --- >> $fname
       echo layout: filterpage >> $fname
@@ -51,11 +55,15 @@ if [ $tags != $NOTHING ]; then
                sed -e 's/tags: \[//' -e 's/\]//' -e 's/, /,/g' -e '/^$/ d' | \
                tr ',' '\n' | sort | uniq); do
 
+    fname=$(echo "tag/$tag.html" | sed 's/ /_/g')
     if [ $tags = $PRINT ]; then
-      echo $tag
+      if [ -e $fname ]; then
+        echo $tag
+      else
+        echo NEW: $tag
+      fi
       continue
     fi
-    fname=$(echo "tag/$tag.html" | sed 's/ /_/g')
     if [ ! -e $fname ]; then
       echo --- >> $fname
       echo layout: filterpage >> $fname
