@@ -17,6 +17,9 @@ if [ ! -z $1 ]; then
   elif [ $1 = "--print-tags" ]; then
     authors=$NOTHING
     tags=$PRINT
+  else
+    echo "Unrecognized option $1."
+    exit 1
   fi
 fi
 
