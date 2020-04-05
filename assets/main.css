@@ -137,6 +137,11 @@ section.bigidea h3 {
     margin-bottom: 0;
 }
 
+h3.tagsubsection {
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
 div.yanicontent p, div.yanicontent ul, div.yanicontent ol {
     margin-top: 0.3em;
     margin-bottom: 0.3em;
@@ -207,7 +212,7 @@ main > div.authors > a > span {
 }
 
 /* specific to the tags list page */
-main > div.tags > a > span {
+main div.tags > a > span {
     margin-bottom: 0.4em;
 }
 

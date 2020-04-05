@@ -1,12 +1,55 @@
 ---
 layout: default
 ---
-{% assign all_tags = site.yanis | map: "tags" | join: ',' | split: ',' | uniq | sort_natural %}
-<h2>All Tags</h2>
+<script type="text/javascript">
+function swapDisplays() {
+  var alpha = document.getElementById("tagsalphabetically");
+  var freq = document.getElementById("tagsbyfrequency");
+  if (alpha.style.display === 'none') {
+    alpha.style.display = '';
+    freq.style.display = 'none';
+  }
+  else {
+    alpha.style.display = 'none';
+    freq.style.display = '';
+  }
+}
+</script>
+
+<div id="tagsalphabetically" style="display:initial">
+  <h2>All Tags Alphabetically</h2>
+  <p>
+    <a href="#" onClick="swapDisplays()">View tags by frequency</a>
+  </p>
+  <div class="tags">
+    {% assign alphatags = site.data.tagfreq | map: "tag" %}
+    {% assign savedlet = "0" %}
+    {% for tag in alphatags %}
+      {% assign let = tag | slice: 0 | upcase %}
+      {% if let != savedlet %}
+        <h3 class="tagsubsection">{{ let }}</h3>
+        {% assign savedlet = let %}
+      {% endif %}
+      {% include linkedtag.html %}
+    {% endfor %}
+  </div>
+</div> <!-- #tagsalphabetically -->
+
+<div id="tagsbyfrequency" style="display:none">
+<h2>All Tags By Frequency</h2>
+<p>
+  <a href="#" onClick="swapDisplays()">View tags alphabetically</a>
+</p>
 
 <div class="tags">
-  {% for tag in all_tags %}
-    {% include linkedtag.html %}
+  {% assign tagsbyfreq = site.data.tagfreq | group_by: "count" | sort: "name" %}
+  {% for group in tagsbyfreq reversed %}
+    {% assign count = group.name | to_integer %}
+    <h3 class="tagsubsection">Tags Occurring {{ count }} Time{% if count != 1 %}s{% endif %}</h3>
+    {% assign tags = group.items | map: "tag" %}
+    {% for tag in tags %}
+      {% include linkedtag.html %}
+    {% endfor %}
   {% endfor %}
 </div>
-
+</div> <!-- #tagsbyfrequency -->
