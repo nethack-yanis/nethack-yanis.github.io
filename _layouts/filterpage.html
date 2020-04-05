@@ -9,7 +9,9 @@ layout: default
   <h2>Hmm... this page is broken (it didn't define a tag or author).</h2>
 {% endif %}
 {{ content }}
-{% for yani in site.yanis %}
+{% assign yanisbynum = site.yanis | group_by_exp: "item", "item.title | to_integer" | sort: "name" %}
+{% for item in yanisbynum reversed %}
+  {% assign yani = item.items[0] %}
   {% if yani.tags contains page.tag or yani.authors contains page.author %}
     {% include yanitemplate.html %}
   {% endif %}

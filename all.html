@@ -5,6 +5,15 @@ layout: default
 <p>
   Note: this page doesn't include the <a href="/bigideas.html">Big Ideas</a>.
 </p>
-{% for yani in site.yanis reversed %}
+{% comment %}
+  This used to be just 'for yani in site.yanis', which takes about 40% of the
+  time that this construction does, but it will sort the titles by string,
+  which produces an order like 1, 10, 100, 101, 102, ..., 11, 12, ..., 2, 20.
+  This previously was worked around by having all the YANI titles be five-digit
+  numbers, e.g. 00001, 00002, and so on.
+{% endcomment %}
+{% assign yanisbynum = site.yanis | group_by_exp: "item", "item.title | to_integer" | sort: "name" %}
+{% for item in yanisbynum reversed %}
+  {% assign yani = item.items[0] %}
   {% include yanitemplate.html %}
 {% endfor %}

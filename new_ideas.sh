@@ -12,7 +12,7 @@ fi
 
 while true; do
   next=$((next + 1))
-  fname=$(printf "_yanis/%05d.md" $next)
+  fname=$(printf "_yanis/%d.md" $next)
   if [ -e $fname ]; then
     echo "$fname exists; skipping..."
     continue
