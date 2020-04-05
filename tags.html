@@ -45,9 +45,9 @@ function swapDisplays() {
 </p>
 
 <div class="tags">
-  {% assign tagsbyfreq = site.data.tagfreq | group_by: "count" | sort: "name" %}
+  {% assign tagsbyfreq = site.data.tagfreq | group_by_exp: "item", "item.count | to_integer" | sort: "name" %}
   {% for group in tagsbyfreq reversed %}
-    {% assign count = group.name | to_integer %}
+    {% assign count = group.name %}
     <h3 class="tagsubsection">Tags Occurring {{ count }} Time{% if count != 1 %}s{% endif %}</h3>
     {% assign tags = group.items | map: "tag" %}
     {% for tag in tags %}
