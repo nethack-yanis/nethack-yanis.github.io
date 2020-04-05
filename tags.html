@@ -25,12 +25,15 @@ function swapDisplays() {
     {% assign alphatags = site.data.tagfreq | map: "tag" %}
     {% assign savedlet = "0" %}
     {% for tag in alphatags %}
-      {% assign let = tag | slice: 0 | upcase %}
-      {% if let != savedlet %}
-        <h3 class="tagsubsection">{{ let }}</h3>
-        {% assign savedlet = let %}
-      {% endif %}
-      {% include linkedtag.html %}
+      {% assign itsfreq = site.data.tagfreq | where: "tag", tag %}
+      {% unless site.data.low_volume_exclude contains tag and itsfreq[0].count == "1" %}
+        {% assign let = tag | slice: 0 | upcase %}
+        {% if let != savedlet %}
+          <h3 class="tagsubsection">{{ let }}</h3>
+          {% assign savedlet = let %}
+        {% endif %}
+        {% include linkedtag.html %}
+      {% endunless %}
     {% endfor %}
   </div>
 </div> <!-- #tagsalphabetically -->
@@ -48,7 +51,9 @@ function swapDisplays() {
     <h3 class="tagsubsection">Tags Occurring {{ count }} Time{% if count != 1 %}s{% endif %}</h3>
     {% assign tags = group.items | map: "tag" %}
     {% for tag in tags %}
-      {% include linkedtag.html %}
+      {% unless site.data.low_volume_exclude contains tag and count == 1 %}
+        {% include linkedtag.html %}
+      {% endunless %}
     {% endfor %}
   {% endfor %}
 </div>
