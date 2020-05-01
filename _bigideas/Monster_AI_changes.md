@@ -1,7 +1,7 @@
 ---
 layout: bigidea
 authors: [jonadab, FIQ, aosdict, flump, mtf, Chris_ANG, xyzyxx, Pavel]
-title: "Monster AI Changes"
+title: "Monster AI changes"
 ---
 
 Monster intelligence and AI strategies should be much more fleshed out than the current definition of "having hands and being neither mindless nor an animal". A clear way to do this is to implement different degrees of intelligence or even just an Int stat for monsters, which affects their strategy for doing certain actions like fleeing (do they flee intelligently like monkeys do, or in a random direction?) and using items (a dumb monster might try to read a scroll of fire and burn itself to death).
