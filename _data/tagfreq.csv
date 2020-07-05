@@ -37,14 +37,14 @@ count,tag
 12,amulets
 1,amulet versus poison
 1,angel
-12,angering
+13,angering
 2,anthole
 3,anti-magic field
 2,apple
 14,archeologist
 1,archeologist quest
 2,arch-lich
-3,archon
+4,archon
 1,arch priest
 11,area of effect
 14,armor
@@ -60,7 +60,7 @@ count,tag
 5,asmodeus
 3,asmodeus' lair
 17,astral plane
-1,astral vision
+2,astral vision
 1,athame
 16,attributes
 4,autocursing
@@ -71,10 +71,10 @@ count,tag
 1,baalzebub's lair
 1,baby owlbear
 1,baby purple worm
-2,backstab
+3,backstab
 6,bag of holding
 10,bag of tricks
-5,bags
+6,bags
 1,ball spells
 1,balrog
 2,banana
@@ -101,8 +101,8 @@ count,tag
 3,blank spellbook
 3,bleeding
 38,blessed behavior
-1,blindfold
-11,blindness
+2,blindfold
+12,blindness
 1,blue dragon
 3,b monster class
 5,B monster class
@@ -132,7 +132,7 @@ count,tag
 1,candles
 2,candy bar
 3,cannibalism
-1,can of grease
+2,can of grease
 1,captain
 1,carrot
 5,carry cap
@@ -237,7 +237,7 @@ count,tag
 19,digging
 1,dilithium crystal
 9,dilution
-15,dipping
+16,dipping
 3,direction prompt
 3,disarming
 4,discoveries list
@@ -251,7 +251,7 @@ count,tag
 16,D monster class
 3,dogs
 10,donations
-31,doors
+32,doors
 5,door trap
 11,double damage
 1,double trouble
@@ -404,7 +404,7 @@ count,tag
 6,gray stones
 10,grease
 3,green slime
-2,gremlin
+3,gremlin
 1,grenade
 16,grudge
 2,gungnir
@@ -416,7 +416,7 @@ count,tag
 3,hand-and-a-half weapon
 2,harassment
 2,hardware store
-13,healer
+14,healer
 2,healer quest
 8,healing potions
 1,health food store
@@ -466,8 +466,8 @@ count,tag
 2,infravision
 17,instadeath
 8,intelligence
-25,interface
-20,intrinsics
+26,interface
+21,intrinsics
 18,invisibility
 2,invisible stalker
 2,invocation
@@ -525,7 +525,7 @@ count,tag
 10,levelport
 7,level sounds
 2,level teleporter
-4,levitation
+5,levitation
 2,library
 1,lichen
 1,lieutenant
@@ -536,7 +536,7 @@ count,tag
 7,lightning
 21,light sources
 2,lithivore
-2,livelog
+3,livelog
 2,lizard
 2,lizard monster class
 4,L monster class
@@ -585,7 +585,6 @@ count,tag
 1,meat ring
 1,meat stick
 18,melee combat
-1,MERGED
 81,messages
 2,messagetype
 3,metal material
@@ -641,10 +640,10 @@ count,tag
 6,nazgul
 1,nearlook
 1,neutral
-70,new artifact
+71,new artifact
 2,new attack type
 8,new branch
-12,new command
+13,new command
 15,new conduct
 7,new damage type
 6,new dungeon feature
@@ -674,7 +673,7 @@ count,tag
 23,nutrition
 5,object display
 26,object generation
-14,object properties
+15,object properties
 7,occupation
 1,ochre jelly
 1,ogresmasher
@@ -686,7 +685,7 @@ count,tag
 1,open action
 1,opera cloak
 4,options
-17,oracle
+18,oracle
 2,oracle level
 1,orange
 5,orb of detection
@@ -706,12 +705,12 @@ count,tag
 1,parrot
 5,passive attacks
 3,passtune
-14,peaceful monsters
+15,peaceful monsters
 1,pear
 13,pet ai
 9,pet eating
 14,petrification
-41,pets
+42,pets
 2,phasing
 5,pick-axe
 2,pill
@@ -737,7 +736,7 @@ count,tag
 9,potion of acid
 1,potion of amnesia
 1,potion of blindness
-14,potion of booze
+15,potion of booze
 2,potion of confusion
 2,potion of enlightenment
 1,potion of extra healing
@@ -752,10 +751,10 @@ count,tag
 3,potion of levitation
 1,potion of monster detection
 2,potion of object detection
-8,potion of oil
+9,potion of oil
 1,potion of orcish war juice
 5,potion of polymorph
-7,potion of restore ability
+8,potion of restore ability
 2,potion of see invisible
 5,potion of sickness
 2,potion of sleeping
@@ -793,7 +792,7 @@ count,tag
 16,race benefits
 3,random events
 18,randomized description effect
-29,ranged combat
+30,ranged combat
 14,ranger
 4,ranger quest
 2,raven
@@ -843,6 +842,7 @@ count,tag
 1,roundshield
 6,royal jelly
 4,rumor
+1,runesword
 5,rust monster
 5,rust trap
 1,saber
@@ -932,7 +932,7 @@ count,tag
 3,sling
 4,slippery fingers
 1,small mimic
-5,smoky potion
+6,smoky potion
 8,s monster class
 1,snickersnee
 25,sokoban
@@ -991,17 +991,17 @@ count,tag
 1,sprig of wolfsbane
 3,squeaky board
 3,staff of aesculapius
-10,stairs
-14,starting equipment
+11,stairs
+16,starting equipment
 6,starting knowledge
 3,starting pet
 8,starting stats
 1,starvation
-20,statue
+21,statue
 1,statue trap
 4,status bar
 27,stealing
-5,stealth
+6,stealth
 3,steam vortex
 8,stethoscope
 3,sting
@@ -1017,17 +1017,17 @@ count,tag
 11,summoning
 1,summon insects
 8,summon nasties
-6,sunsword
+7,sunsword
 6,superior extrinsics principle
 2,swamp room
 1,swamp terrain
 7,swimming
 1,tallow candle
 17,taming
-12,tdttoe
+13,tdttoe
 4,techniques
 8,telepathy
-16,teleportation
+17,teleportation
 1,teleportation trap
 3,teleport control
 5,teleportitis
@@ -1054,11 +1054,11 @@ count,tag
 17,tools
 1,torch
 5,touchstone
-9,tourist
+10,tourist
 2,tourist quest
 4,towel
 11,training
-6,trap door
+7,trap door
 2,trapper
 14,traps
 3,trap scaling
@@ -1123,7 +1123,7 @@ count,tag
 2,wand of secret door detection
 1,wand of sleep
 1,wand of speed
-1,wand of striking
+2,wand of striking
 3,wand of teleportation
 3,wand of undead turning
 1,wand of water
@@ -1136,7 +1136,7 @@ count,tag
 1,warning of monster type
 5,warping
 18,water
-7,water damage
+8,water damage
 2,water demon
 4,water elemental
 1,water moccasin
