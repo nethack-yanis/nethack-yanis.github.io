@@ -34,7 +34,7 @@ count,tag
 1,amulet of strangulation
 1,amulet of unchanging
 23,amulet of yendor
-12,amulets
+13,amulets
 1,amulet versus poison
 1,angel
 13,angering
@@ -89,7 +89,7 @@ count,tag
 2,beehive
 1,being held by a monster
 4,bell
-4,bell of opening
+5,bell of opening
 1,benches
 3,berserk
 4,big room
@@ -110,7 +110,7 @@ count,tag
 3,bone material
 13,bones files
 1,bones piles
-1,book of the dead
+2,book of the dead
 3,boomerang
 9,boots
 27,boulder
@@ -126,8 +126,8 @@ count,tag
 2,bullwhip
 4,calendar events
 5,camera
-13,cancellation
-3,candelabrum of invocation
+14,cancellation
+4,candelabrum of invocation
 15,candle
 1,candles
 2,candy bar
@@ -141,7 +141,7 @@ count,tag
 11,castle
 3,cats
 1,cauldron
-11,caveman
+12,caveman
 3,caveman quest
 3,ceiling clingers
 1,centipede
@@ -152,6 +152,7 @@ count,tag
 21,charisma
 15,chat
 9,chest
+1,chickatrice
 6,choking
 3,chromatic dragon
 4,clairvoyance
@@ -165,14 +166,14 @@ count,tag
 6,cloning
 6,closet
 1,clove of garlic
-1,club
+2,club
 2,C monster class
-5,cockatrice
+6,cockatrice
 6,cockatrice corpse
-62,code internals
+63,code internals
 13,cold
 4,cold resistance
-19,combat
+20,combat
 8,comestibles
 24,completely new system
 9,concealment
@@ -182,7 +183,7 @@ count,tag
 8,conflict
 6,confused effect
 3,confuse monster
-12,confusion
+13,confusion
 5,consolidation
 8,constitution
 7,consumable renewable principle
@@ -208,19 +209,18 @@ count,tag
 2,crystal ball
 1,crystal chest
 3,crystal plate mail
-47,cursed behavior
+48,cursed behavior
 6,curse items
 4,curse resistance
 6,customizable fruit
 2,customizable object
 2,dagger
-41,damage adjustments
+42,damage adjustments
 4,darkness
 1,dark one
 2,dart
 3,dart trap
 4,deafness
-6,death
 21,death drops
 10,death reasons
 3,delicatessen
@@ -317,7 +317,7 @@ count,tag
 4,farlook
 1,fedora
 1,felt marker
-8,figurine
+9,figurine
 24,fire
 4,fire brand
 2,fire elemental
@@ -385,7 +385,7 @@ count,tag
 1,gnome
 1,gnome king
 1,gnome kings wine cellar
-9,gnome race
+10,gnome race
 6,gnomish mines
 1,gnomish wizard
 10,god anger
@@ -402,11 +402,11 @@ count,tag
 9,grave
 3,graveyard
 6,gray stones
-10,grease
+11,grease
 3,green slime
 3,gremlin
 1,grenade
-16,grudge
+17,grudge
 2,gungnir
 1,gwtwod
 2,haggling
@@ -494,7 +494,7 @@ count,tag
 9,key
 2,key bindings
 25,kicking
-2,kicking boots
+3,kicking boots
 12,killer bee
 1,king arthur
 7,king monsters
@@ -537,7 +537,7 @@ count,tag
 21,light sources
 2,lithivore
 3,livelog
-2,lizard
+3,lizard
 2,lizard monster class
 4,L monster class
 5,loadstone
@@ -592,7 +592,7 @@ count,tag
 8,mind flayer
 1,mindless
 2,mines' end
-8,minetown
+9,minetown
 3,minigame
 6,mirror
 1,mithril coats
@@ -632,7 +632,7 @@ count,tag
 8,multishot
 3,mummy wrapping
 1,murder
-4,musical instruments
+6,musical instruments
 3,mysterious force
 1,nalzok
 6,naming monsters
@@ -719,6 +719,7 @@ count,tag
 8,planes
 1,platinum material
 1,platinum yendorian express card
+6,player death
 7,player fear system
 13,player monster
 2,player-monster symmetry
@@ -728,7 +729,8 @@ count,tag
 1,poison resistance
 4,polearms
 16,polyform effects
-25,polymorph
+26,polymorph
+1,polymorph control
 1,polymorphitis
 9,polymorph trap
 7,polypiling
@@ -765,7 +767,7 @@ count,tag
 1,prayer timeout
 13,price
 1,priest quest
-16,priest role
+17,priest role
 1,prisoner
 7,probing
 2,protection from shape changers
@@ -806,7 +808,7 @@ count,tag
 6,restore ability
 11,resurrection
 5,riders
-11,riding
+12,riding
 1,ring of adornment
 1,ring of aggravate monster
 4,ring of conflict
@@ -831,7 +833,7 @@ count,tag
 1,rock piercer
 8,rogue
 1,rogue quest
-54,role benefits
+56,role benefits
 6,role intrinsics
 4,rolling boulder trap
 2,rope golem
@@ -866,8 +868,8 @@ count,tag
 4,scroll of create monster
 3,scroll of destroy armor
 1,scroll of earth
-2,scroll of enchant armor
-3,scroll of enchant weapon
+3,scroll of enchant armor
+4,scroll of enchant weapon
 1,scroll of fire
 3,scroll of genocide
 1,scroll of gold detection
@@ -908,9 +910,9 @@ count,tag
 2,shimmering dragon
 1,shirts
 5,shock resistance
-33,shopkeepers
+34,shopkeepers
 1,shoplifting
-19,shops
+20,shops
 5,short sword
 2,shrieker
 2,shuriken
@@ -1053,7 +1055,7 @@ count,tag
 17,tools
 1,torch
 5,touchstone
-10,tourist
+11,tourist
 2,tourist quest
 4,towel
 11,training
@@ -1127,7 +1129,7 @@ count,tag
 3,wand of undead turning
 1,wand of water
 10,wand of wishing
-21,wands
+22,wands
 2,wand skill
 2,wards
 1,war hammer
@@ -1176,7 +1178,7 @@ count,tag
 5,wounded legs
 5,wraith
 2,wresting
-15,writing
+16,writing
 1,wumpus
 1,xan
 5,xlogfile
