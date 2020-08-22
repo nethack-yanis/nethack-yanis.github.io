@@ -222,6 +222,7 @@ count,tag
 3,dart trap
 4,deafness
 21,death drops
+1,death ray
 10,death reasons
 3,delicatessen
 2,demonbane
@@ -964,7 +965,7 @@ count,tag
 1,spell of detect unseen
 1,spell of dig
 2,spell of extra healing
-2,spell of finger of death
+1,spell of finger of death
 2,spell of fireball
 2,spell of haste self
 2,spell of healing
@@ -1112,7 +1113,7 @@ count,tag
 3,wand of cancellation
 1,wand of cold
 1,wand of create monster
-3,wand of death
+2,wand of death
 4,wand of digging
 2,wand of enlightenment
 2,wand of light
