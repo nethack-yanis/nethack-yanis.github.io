@@ -622,7 +622,7 @@ count,tag
 49,monster internals
 18,monster item use
 3,monster magic resistance
-1,monster player symmetry
+3,monster player symmetry
 6,monster size
 1,monster sounds
 15,monster spell
@@ -729,7 +729,6 @@ count,tag
 6,player death
 7,player fear system
 13,player monster
-2,player-monster symmetry
 2,p monster class
 7,P monster class
 14,poison
