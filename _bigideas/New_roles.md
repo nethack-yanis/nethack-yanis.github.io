@@ -65,6 +65,7 @@ A really great Alchemist implementation would probably involve a full alchemy ov
 * Quest involves lots of golems.
 * Quest artifact grants double damage with tools and gives blessed charging when invoked.
 * Gnome is a playable race.
+* Has a special tool, an artificer's knife, which they can use for ring crafting. This works by removing the gem from the ring and replacing it with another gem. Not specified how this works for non-gem rings or rings containing things like black onyx or pearl which aren't obtainable gems; possibly these are just uncraftable. Crafting a ring like this may destroy it depending on the beatitude of the knife, 75%/90%/99% for B/U/C for non-Artificers, 20%/50%/80% for Artificers.
 Also see [dtsund's proposed Tinker role](https://nethackwiki.com/wiki/User:Jonadab/ClassOverhaul#Item_User:_Tinker).
 
 ### Druid
