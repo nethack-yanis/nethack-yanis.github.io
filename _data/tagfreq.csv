@@ -104,7 +104,7 @@ count,tag
 2,blindfold
 12,blindness
 1,blue dragon
-3,b monster class
+4,b monster class
 5,B monster class
 6,body armor
 3,bone material
@@ -222,7 +222,7 @@ count,tag
 3,dart trap
 4,deafness
 21,death drops
-1,death ray
+2,death ray
 10,death reasons
 3,delicatessen
 2,demonbane
@@ -400,7 +400,7 @@ count,tag
 1,grand master
 4,grappling hook
 2,grass
-9,grave
+9,gravestone
 3,graveyard
 6,gray stones
 11,grease
@@ -467,7 +467,7 @@ count,tag
 2,infravision
 17,instadeath
 8,intelligence
-26,interface
+27,interface
 21,intrinsics
 18,invisibility
 2,invisible stalker
@@ -487,7 +487,7 @@ count,tag
 1,javelin
 1,javelins
 1,jewelry store
-2,j monster class
+3,j monster class
 2,jousting
 2,juiblex
 5,jumping
@@ -585,7 +585,7 @@ count,tag
 3,meatball
 1,meat ring
 1,meat stick
-18,melee combat
+19,melee combat
 81,messages
 2,messagetype
 3,metal material
@@ -615,7 +615,7 @@ count,tag
 8,monster eating
 33,monster generation
 6,monster group spawning
-48,monster internals
+49,monster internals
 18,monster item use
 3,monster magic resistance
 1,monster player symmetry
@@ -640,7 +640,7 @@ count,tag
 6,nazgul
 1,nearlook
 1,neutral
-71,new artifact
+72,new artifact
 2,new attack type
 8,new branch
 13,new command
@@ -651,18 +651,18 @@ count,tag
 15,new intrinsic
 89,new monster
 149,new object
-18,new option
+19,new option
 5,new race
 2,new randomized appearance
 13,new role
 6,new shop type
 8,new skill
-19,new special level
+20,new special level
 18,new special room
 39,new spell
 2,newt
 9,new terrain type
-18,new trap
+19,new trap
 8,n monster class
 2,N monster class
 6,noncombat skill
@@ -694,6 +694,7 @@ count,tag
 1,orcrist
 5,orc shaman
 9,orctown
+1,orcus
 1,orthogonal movement
 5,overview
 12,pacification
@@ -725,7 +726,7 @@ count,tag
 13,player monster
 2,player-monster symmetry
 2,p monster class
-6,P monster class
+7,P monster class
 14,poison
 1,poison resistance
 4,polearms
@@ -798,7 +799,7 @@ count,tag
 14,ranger
 4,ranger quest
 2,raven
-13,rays
+14,rays
 1,red dragon
 1,red mold
 11,references
@@ -1134,7 +1135,7 @@ count,tag
 2,wand skill
 2,wards
 1,war hammer
-1,warning
+3,warning
 1,warning of monster type
 5,warping
 18,water
