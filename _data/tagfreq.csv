@@ -986,8 +986,7 @@ count,tag
 1,spell of restore ability
 4,spell of sleep
 1,spell of teleport away
-1,spell of turn undead
-1,spell of undead turning
+2,spell of turn undead
 1,spell of web
 4,spell of wizard lock
 6,spell retention
