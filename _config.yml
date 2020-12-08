@@ -1,3 +1,10 @@
+title: NetHack Ideas Archive
+email: aosdict@gmail.com
+description: >-
+  This is a collection of ideas, suggestions, and feature requests for the game
+  NetHack, preserving good ideas so they don't get forgotten about and
+  presenting them in an organized format for use by developers.
+
 defaults:
   -
     # All YANIs (i.e. all posts) share these default values.
