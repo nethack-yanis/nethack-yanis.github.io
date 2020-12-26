@@ -23,6 +23,7 @@ else
   tagsearch=true
 fi
 
+echo "`echo "$files" | wc -l` matching files"
 for file in $files; do
   grep -q 'tags: \[\]' "$file"
   if [ $? -eq 0 ] || $tagsearch; then
