@@ -1,6 +1,6 @@
 ---
 layout: bigidea
-authors: [ais523, FIQ, jonadab, aosdict]
+authors: [ais523, FIQ, jonadab, aosdict, bezaban]
 ---
 
 The main idea here is to make the identification game less regimented. Currently, a rational spoiled player (who will not take the risks associated with direct use-ID) is restricted to indirect use-ID (and monster use-ID) of most objects until such time as they can find a general, book, or scroll shop, at which point they can price-ID the scroll of identify and other items. Once identify is known (and could be blessed), the good items (as determined by price ID) can be fully identified. This is problematic because it's not at all a gradual process, and it feels like it should be.
