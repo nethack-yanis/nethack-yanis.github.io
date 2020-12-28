@@ -7,8 +7,12 @@ NOTHING=0
 PRINT=1
 WRITE=2
 
-authors=$WRITE
-tags=$WRITE
+authors=$NOTHING
+tags=$NOTHING
+
+function usage {
+  echo "Usage: $0 [--print-authors|--print-tags|--write-both]"
+}
 
 if [ ! -z $1 ]; then
   if [ $1 = "--print-authors" ]; then
@@ -17,10 +21,16 @@ if [ ! -z $1 ]; then
   elif [ $1 = "--print-tags" ]; then
     authors=$NOTHING
     tags=$PRINT
+  elif [ $1 = "--write-both" ]; then
+    authors=$WRITE
+    tags=$WRITE
   else
-    echo "Unrecognized option $1."
+    usage
     exit 1
   fi
+else
+  usage
+  exit 1
 fi
 
 if [ $authors != $NOTHING ]; then
