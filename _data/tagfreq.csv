@@ -474,7 +474,7 @@ count,tag
 2,infravision
 18,instadeath
 8,intelligence
-30,interface
+29,interface
 21,intrinsics
 18,invisibility
 2,invisible stalker
@@ -497,7 +497,7 @@ count,tag
 3,j monster class
 2,jousting
 2,juiblex
-7,jumping
+6,jumping
 2,katana
 9,key
 2,key bindings
