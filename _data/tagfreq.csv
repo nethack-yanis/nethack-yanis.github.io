@@ -427,7 +427,7 @@ count,tag
 8,healing potions
 1,health food store
 1,healthstone
-1,heart of ahriman
+2,heart of ahriman
 1,helm of brilliance
 12,helm of opposite alignment
 7,helms
@@ -462,15 +462,15 @@ count,tag
 5,illness
 3,imp
 3,implemented in dnethack
-15,implemented in evilhack
+17,implemented in evilhack
 2,implemented in fiqhack
 2,implemented in FIQHack
 1,implemented in fourk
 1,implemented in slicehack
 14,implemented in splicehack
 2,implemented in tnnt
-20,implemented in vanilla
-103,implemented in xnethack
+25,implemented in vanilla
+113,implemented in xnethack
 2,infravision
 18,instadeath
 8,intelligence
@@ -518,7 +518,7 @@ count,tag
 5,lamps
 3,lance
 3,land mine
-7,large box
+8,large box
 14,lava
 2,lawful
 9,leash
@@ -653,7 +653,7 @@ count,tag
 8,nazgul
 1,nearlook
 2,neutral
-87,new artifact
+88,new artifact
 3,new attack type
 10,new branch
 14,new command
@@ -821,7 +821,7 @@ count,tag
 13,reflection
 1,regeneration intrinsic
 1,rest action
-2,restful sleep
+3,restful sleep
 6,restore ability
 12,resurrection
 5,riders
