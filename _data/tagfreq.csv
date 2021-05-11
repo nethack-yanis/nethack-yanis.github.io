@@ -628,7 +628,7 @@ count,tag
 8,monster eating
 36,monster generation
 6,monster group spawning
-52,monster internals
+51,monster internals
 18,monster item use
 3,monster magic resistance
 3,monster player symmetry
@@ -1045,7 +1045,7 @@ count,tag
 1,swamp terrain
 8,swimming
 1,tallow candle
-1,tameness
+7,tameness
 18,taming
 13,tdttoe
 4,techniques
