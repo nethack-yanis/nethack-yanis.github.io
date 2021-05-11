@@ -13,7 +13,7 @@ count,tag
 6,alchemy
 1,aleax
 23,aligned priest
-13,alignment
+12,alignment
 4,alignment conversion
 1,alignment quest
 28,alignment record
@@ -727,7 +727,7 @@ count,tag
 16,pet ai
 10,pet eating
 15,petrification
-49,pets
+48,pets
 2,phasing
 6,pick-axe
 2,pill
@@ -809,7 +809,7 @@ count,tag
 1,quivering blob
 17,race benefits
 3,random events
-18,randomized description effect
+17,randomized description effect
 32,ranged combat
 14,ranger
 4,ranger quest
@@ -970,7 +970,7 @@ count,tag
 2,special spells
 29,speed
 1,speed boots
-42,spellbooks
+41,spellbooks
 27,spellcasting
 12,spell levels
 1,spell maintenance
@@ -1045,6 +1045,7 @@ count,tag
 1,swamp terrain
 8,swimming
 1,tallow candle
+1,tameness
 18,taming
 13,tdttoe
 4,techniques
@@ -1130,7 +1131,7 @@ count,tag
 12,V monster class
 9,vomiting
 9,vorpal blade
-20,waking monsters
+19,waking monsters
 10,walls
 3,wand of cancellation
 1,wand of cold
