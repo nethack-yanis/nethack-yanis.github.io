@@ -852,7 +852,7 @@ count,tag
 1,rock troll
 8,rogue
 1,rogue quest
-58,role benefits
+59,role benefits
 6,role intrinsics
 4,rolling boulder trap
 2,rope golem
@@ -1185,9 +1185,10 @@ count,tag
 18,wishing
 11,wishing for non-objects
 5,wish parser
-7,wizard
 5,wizard mode
 7,wizard of yendor
+1,wizard quest
+6,wizard role
 6,wizard's tower
 2,w monster class
 5,W monster class
