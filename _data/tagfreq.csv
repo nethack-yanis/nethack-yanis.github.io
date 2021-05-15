@@ -833,7 +833,7 @@ count,tag
 19,race benefits
 3,random events
 18,randomized description effect
-35,ranged combat
+34,ranged combat
 15,ranger
 4,ranger quest
 2,raven
@@ -971,7 +971,7 @@ count,tag
 7,sitting
 7,skeleton
 27,skills
-49,skill scaling
+48,skill scaling
 17,sleeping
 1,sleeping gas trap
 1,sleep resistance
