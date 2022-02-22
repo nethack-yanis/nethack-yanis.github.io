@@ -1,9 +1,10 @@
 #!/bin/bash
 # Utility script for adding/editing tags on ideas.
 # Usage:
-# ./tagadder.sh                     - add tags to untagged ideas in the range specified below
-# ./tagadder.sh grep-pattern        - edit tags on ideas where the tags match grep-pattern
-# ./tagadder.sh --full grep-pattern - as above, but where anything in the file matches
+# ./tagadder.sh                        - add tags to untagged ideas in the range specified below
+# ./tagadder.sh grep-pattern           - edit tags on ideas where the tags match grep-pattern
+# ./tagadder.sh --full grep-pattern    - as above, but where anything in the file matches
+# ./tagadder.sh --showall grep-pattern - instead of opening vim, just print all matching files in less
 
 if [ -z "$1" ]; then
   # mode for adding tags to new as-yet-untagged ideas
@@ -12,14 +13,17 @@ if [ -z "$1" ]; then
   # range of files must be manually specified in the below range.
   files=$(for i in {00001..00100}; do echo _yanis/$i.md; done)
   tagsearch=false
-else
-  if [ -z "$2" ] || [ "$1" != "--full" ]; then
-    # tag search
-    files=$(grep -rl "^tags.*$1" _yanis)
-  else
-    # full text search
+elif [ "$1" == "--showall" ]; then
     files=$(grep -rl "$2" _yanis)
-  fi
+    cat $files | less
+    exit 0
+elif [ "$1" == "--full" ]; then
+  # full text search
+  files=$(grep -rl "$2" _yanis)
+  tagsearch=true
+else
+  # tag search
+  files=$(grep -rl "^tags.*$1" _yanis)
   tagsearch=true
 fi
 
