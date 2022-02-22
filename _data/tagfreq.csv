@@ -16,7 +16,7 @@ count,tag
 12,alignment
 5,alignment conversion
 1,alignment quest
-33,alignment record
+34,alignment record
 5,ally buffs
 24,altars
 7,alternate ending
@@ -69,14 +69,14 @@ count,tag
 1,autopickup
 5,autoreturning
 2,axe
-3,baalzebub
+4,baalzebub
 1,baalzebub's lair
 1,baby owlbear
 1,baby purple worm
 3,backstab
 8,bag of holding
 11,bag of tricks
-6,bags
+7,bags
 1,ball spells
 1,balrog
 3,banana
@@ -232,7 +232,7 @@ count,tag
 10,death reasons
 3,delicatessen
 2,demonbane
-2,demon gating
+3,demon gating
 24,demon lords
 18,demon monster class
 2,detect magic
@@ -375,12 +375,12 @@ count,tag
 1,gauntlets of force
 2,gauntlets of power
 3,gaze attacks
-38,gehennom
+39,gehennom
 7,gelatinous cube
 2,gem magic
 19,gems
 1,gemstone material
-5,gender
+6,gender
 1,general store
 14,genocide
 1,geryon
@@ -432,7 +432,7 @@ count,tag
 2,haggling
 3,half physical damage
 3,half spell damage
-36,hallucination
+37,hallucination
 3,hand-and-a-half weapon
 5,harassment
 2,hardware store
@@ -467,27 +467,28 @@ count,tag
 2,human race
 6,humans
 4,hunger intrinsic
-16,hunger rate
+17,hunger rate
 3,hurtling
 9,ice
-5,ice box
+4,ice box
 2,ice devil
+1,ice queen's realm
 33,identification
 4,illiterate
 1,illithid race
 5,illness
 3,imp
 5,implemented in dnethack
-17,implemented in evilhack
+19,implemented in evilhack
 2,implemented in fiqhack
 2,implemented in FIQHack
 1,implemented in fourk
 1,implemented in slicehack
-14,implemented in splicehack
+15,implemented in splicehack
 2,implemented in tnnt
 1,implemented in unnethack
-26,implemented in vanilla
-116,implemented in xnethack
+27,implemented in vanilla
+121,implemented in xnethack
 2,infravision
 19,instadeath
 8,intelligence
@@ -514,7 +515,7 @@ count,tag
 3,j monster class
 3,jousting
 3,juiblex
-7,jumping
+6,jumping
 1,jumping spider
 3,katana
 10,key
@@ -596,7 +597,7 @@ count,tag
 4,magic mapping
 4,magic marker
 3,magic mirror of merlin
-4,magic missile
+3,magic missile
 9,magic portal
 7,magic resistance
 4,magic trap
@@ -619,7 +620,7 @@ count,tag
 1,meat stick
 1,medusa
 22,melee combat
-96,messages
+95,messages
 2,messagetype
 3,metal material
 2,milky potion
@@ -639,14 +640,14 @@ count,tag
 9,moloch
 1,moloch's sanctum
 24,money
-25,monk
+26,monk
 2,monk quest
 87,monster ai
 2,monster colors
 5,monster command
 24,monster difficulty
 8,monster eating
-36,monster generation
+37,monster generation
 6,monster group spawning
 51,monster internals
 20,monster item use
@@ -685,7 +686,7 @@ count,tag
 1,new glyph
 18,new intrinsic
 106,new monster
-168,new object
+169,new object
 28,new option
 5,new race
 2,new randomized appearance
@@ -706,10 +707,10 @@ count,tag
 3,non-poisonous cloud
 2,non-spell books
 3,nurse
-23,nutrition
+24,nutrition
 5,object display
 29,object generation
-16,object properties
+17,object properties
 7,occupation
 1,ochre jelly
 2,ogresmasher
@@ -777,7 +778,7 @@ count,tag
 9,potion of acid
 1,potion of amnesia
 1,potion of blindness
-19,potion of booze
+18,potion of booze
 2,potion of confusion
 2,potion of enlightenment
 1,potion of extra healing
@@ -833,14 +834,14 @@ count,tag
 19,race benefits
 3,random events
 18,randomized description effect
-34,ranged combat
+33,ranged combat
 15,ranger
 4,ranger quest
 2,raven
-15,rays
+14,rays
 1,red dragon
 1,red mold
-11,references
+12,references
 13,reflection
 1,regeneration intrinsic
 1,rest action
@@ -876,7 +877,7 @@ count,tag
 8,rogue
 1,rogue level
 1,rogue quest
-62,role benefits
+63,role benefits
 6,role intrinsics
 5,rolling boulder trap
 2,rope golem
@@ -995,10 +996,10 @@ count,tag
 4,special room
 2,special spells
 1,spectre
-30,speed
+29,speed
 1,speed boots
 44,spellbooks
-30,spellcasting
+31,spellcasting
 13,spell levels
 1,spell maintenance
 1,spell of charm monster
@@ -1147,7 +1148,7 @@ count,tag
 3,valkyrie quest
 1,valley of the dead
 1,vampire bat
-4,vampire shapeshifting
+5,vampire shapeshifting
 9,vapors
 7,vault guard
 7,vaults
