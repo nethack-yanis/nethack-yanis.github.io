@@ -8,27 +8,55 @@ This is a GitHub Pages site that hosts a repository of NetHack design ideas.
 
 ## Process for adding new ideas
 
-To add new idea files, simply run new_ideas.sh without arguments. It will
-repeatedly generate a blank template for the next available number and open it
-in vim. If you accidentally generate an extra blank file after adding the last
-idea, make sure to remove it before committing.
-
-The \_data/tagfreq.csv file should be updated whenever new ideas are added. It
-is recommended to add a pre-commit hook that automatically invokes
-`list-tags.sh --write-csv`.
-
-A standard commit adding new ideas should contain four pieces of information in
-its commit message, in this order:
-1. The date of the most recently added idea.
-2. The number of newly added ideas.
-3. A list of newly added authors.
-4. A list of newly added tags. (This is good practice because it makes it easy
-   to identify tags that are typoed or have a pluralization difference from an
-   existing tag, and should be changed).
-
-Newly added authors and tags can be found by using tag_author_generator.sh with
-its --print options. At some point this whole process should probably be turned
-into a prepare-commit-msg git hook.
+1. Scan IRC files for things that look like they contain game design ideas or
+   suggestions. "YANI" is NetHack specific; other things such as "feature
+   request", "FR", "suggestion" may help cast a wider net.
+2. Run `new_ideas.sh` without arguments to repeatedly generate a blank template
+   for the next available number and open it in vim. If you accidentally
+   generate any extra blank files without putting actual ideas in them, make
+   sure to remove them.
+3. For each new idea, write down the online handles of the people who came up
+   with it as authors.
+4. For each new idea, tag the idea with whichever tags are appropriate, which in
+   this case means directly relevant to the idea. Use `list-tags.sh` for a
+   reference list of the tags that already exist. Care should be taken when
+   creating a tag that hasn't been used yet.
+5. If an idea seems like it might have been suggested before and the current one
+   isn't completely new, use `tagadder.sh '[tag]'` to look at ideas with that
+   tag and see if it is indeed a duplicate. You can also use `tagadder.sh --full
+   '[regex]' to search the whole idea file for that regex, which may be useful
+   for identifiers that probably aren't tags. If the idea *is* a duplicate but
+   the new one being considered adds something new, fold it into the old one and
+   add the author if they're not already there. If the new one doesn't add
+   anything new, ignore it.
+6. Once all new ideas have been collected and written into the `\_yanis`
+   directory, it's time to start preparing the commit. First check for any typos
+   or questionable new additions with authors/tags by running
+   `tag_author_generator.sh --print-tags | grep NEW` and
+   `tag-author-generator.sh --print-authors | grep NEW`. If there are any wrong
+   inclusions, remove them.
+7. Run `tag_author_generator.sh --write-both` to actually create the tag and
+   author pages. Make sure to save the lists of new tags and authors for the
+   commit message. (At some point this process should probably be turned into a
+   prepare-commit-msg git hook.)
+8. Git add all the new files in `_yanis` along with any files that were changed
+   because of folding new aspects of an idea into them. Also git add the newly
+   created files in `tag` and `author`.
+9. Update the `\_data/tagfreq.csv` file via `list-tags.sh --write-csv` and git
+   add it. A pre-commit hook already exists for this, but make sure NOT to
+   commit changes to this file if doing some maintenance commit that doesn't add
+   new ideas.
+10. Update the date range and the YANI starting number in `recent.html`, then
+    git add it.
+11. Git commit and write the commit message. A standard commit adding new ideas
+    should contain four pieces of information in its commit message, in this
+    order:
+    1. The date of the most recently added idea.
+    2. The number of newly added ideas.
+    3. A list of newly added authors.
+    4. A list of newly added tags. (This is good practice because it makes it
+       easy to identify tags that are typoed or have a pluralization difference
+       from an existing tag, and should be changed).
 
 ## Regarding the filter pages system
 
@@ -59,4 +87,6 @@ Jekyll cannot generate these files on its own; they must be provided separately.
   Liquid.
 * Author names and tags can contain spaces, but cannot contain commas. Spaces
   are automatically translated to underscores in filenames and URLs. Most other
-  special characters aren't currently supported, except apostrophes.
+  special characters aren't currently supported, except apostrophes. (This is
+  why there's a "demon monster class" tag and not a "& monster class" tag, for
+  instance.)
