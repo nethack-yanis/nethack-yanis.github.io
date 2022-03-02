@@ -3,7 +3,7 @@ layout: default
 ---
 <h2>Recently Added Ideas</h2>
 <p>
-  This is the latest batch of YANIs, spanning from 2020 Dec 26 to 2021 May 10.
+  This is the latest batch of YANIs, spanning from 2021 May 11 to 2021 June 30.
 </p>
 <p>
   Note: this page doesn't include recent changes to <a href="/bigideas.html">Big Ideas</a>.
@@ -11,7 +11,7 @@ layout: default
 {% comment %}
 EDIT THE WHERE_EXP CLAUSE TO THE NEW FIRST IDEA ADDED
 {% endcomment %}
-{% assign yanisbynum = site.yanis | group_by_exp: "item", "item.title | to_integer" | where_exp: "item", "item.name >= 3277" | sort: "name" %}
+{% assign yanisbynum = site.yanis | group_by_exp: "item", "item.title | to_integer" | where_exp: "item", "item.name >= 3502" | sort: "name" %}
 {% for item in yanisbynum %}
   {% assign yani = item.items[0] %}
   {% include yanitemplate.html %}
