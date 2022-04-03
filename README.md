@@ -29,7 +29,7 @@ This is a GitHub Pages site that hosts a repository of NetHack design ideas.
    the new one being considered adds something new, fold it into the old one and
    add the author if they're not already there. If the new one doesn't add
    anything new, ignore it.
-6. Once all new ideas have been collected and written into the `\_yanis`
+6. Once all new ideas have been collected and written into the \_yanis
    directory, it's time to start preparing the commit. First check for any typos
    or questionable new additions with authors/tags by running
    `tag_author_generator.sh --print-tags | grep NEW` and
@@ -39,10 +39,10 @@ This is a GitHub Pages site that hosts a repository of NetHack design ideas.
    author pages. Make sure to save the lists of new tags and authors for the
    commit message. (At some point this process should probably be turned into a
    prepare-commit-msg git hook.)
-8. Git add all the new files in `_yanis` along with any files that were changed
+8. Git add all the new files in \_yanis along with any files that were changed
    because of folding new aspects of an idea into them. Also git add the newly
    created files in `tag` and `author`.
-9. Update the `\_data/tagfreq.csv` file via `list-tags.sh --write-csv` and git
+9. Update the \_data/tagfreq.csv file via `list-tags.sh --write-csv` and git
    add it. A pre-commit hook already exists for this, but make sure NOT to
    commit changes to this file if doing some maintenance commit that doesn't add
    new ideas.

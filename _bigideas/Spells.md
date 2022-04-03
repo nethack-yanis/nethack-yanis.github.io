@@ -75,6 +75,7 @@ Various ritual spells that have been proposed:
 * Create a fountain. Requires a statue of a medium-sized or larger monster, which gets destroyed (by turning it into the centerpiece of the fountain). There may be potential for wishing abuse; perhaps the fountain should be flagged so that it can't produce a wish-granting water demon.
 * Turn a regular knife into an athame. Components include other bladed weapons with positive enchantments adding up to 20 or something; all of these charges will be drained to +0 in the creation of the athame. The resulting athame is +0, regardless of the charges on the component weapons or original knife.
 * Create a tame golem or golems. Requires a large amount of total weight of objects made out of the golem's material.
+* Summon a coaligned angel or other minion of your deity as a pet.
 
 Ritual spells come in spellbooks like usual, but aren't stored in your spell list. Instead, reading the spellbook prompts you if you want to begin its ritual and tells you the necessary ingredients and circumstances you need to satisfy as preconditions. If you meet all the conditions and answer yes, you initiate the ritual. (For simplicity, this should probably burn up / expend all the components instantly.) You cannot begin a ritual while in the process of casting another ritual; this should probably be implemented as a precondition.
 
