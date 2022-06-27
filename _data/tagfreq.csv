@@ -5,6 +5,7 @@ count,tag
 5,acid
 2,acid blob
 3,acid resistance
+3,advanced spell forms
 2,aggravate effect
 8,aggravate monster intrinsic
 2,air elemental
@@ -234,6 +235,7 @@ count,tag
 23,death drops
 2,death ray
 10,death reasons
+3,decapitation
 3,delicatessen
 2,demonbane
 3,demon gating
@@ -493,7 +495,7 @@ count,tag
 15,implemented in splicehack
 2,implemented in tnnt
 1,implemented in unnethack
-31,implemented in vanilla
+32,implemented in vanilla
 124,implemented in xnethack
 2,infidel
 2,infravision
@@ -1176,7 +1178,7 @@ count,tag
 1,venom
 8,vibrating square
 1,violet fungus
-16,vision
+17,vision
 7,vlad's tower
 1,vlad the impaler
 5,v monster class
