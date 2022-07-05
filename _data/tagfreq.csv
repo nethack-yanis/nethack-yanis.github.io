@@ -1,6 +1,6 @@
 count,tag
 3,abandoned temple
-9,abuse
+10,abuse
 2,achievements
 5,acid
 2,acid blob
@@ -13,11 +13,11 @@ count,tag
 1,aklys
 6,alchemy
 1,aleax
-27,aligned priest
+28,aligned priest
 13,alignment
-5,alignment conversion
+6,alignment conversion
 1,alignment quest
-37,alignment record
+38,alignment record
 5,ally buffs
 28,altars
 7,alternate ending
@@ -31,17 +31,20 @@ count,tag
 4,amulet of change
 1,amulet of drain resistance
 2,amulet of esp
+1,amulet of flying
 7,amulet of life saving
 2,amulet of restful sleep
 1,amulet of strangulation
 2,amulet of unchanging
 24,amulet of yendor
-15,amulets
+16,amulets
 1,amulet versus poison
 2,angel
+1,angel race
 16,angering
 4,anthole
 4,anti-magic field
+1,antimatter vortex
 2,apple
 1,apron
 17,archeologist
@@ -49,8 +52,8 @@ count,tag
 2,arch-lich
 6,archon
 1,arch priest
-16,area of effect
-18,armor
+18,area of effect
+19,armor
 7,armor class
 6,arrow
 4,arrow trap
@@ -77,8 +80,8 @@ count,tag
 1,baby owlbear
 1,baby purple worm
 4,backstab
-9,bag of holding
-12,bag of tricks
+11,bag of holding
+14,bag of tricks
 7,bags
 1,ball spells
 2,balrog
@@ -107,15 +110,16 @@ count,tag
 1,black speech
 3,blank spellbook
 3,bleeding
-45,blessed behavior
+47,blessed behavior
 3,blindfold
 14,blindness
+2,blood splatters
 1,blue dragon
 4,b monster class
 6,B monster class
-7,body armor
+8,body armor
 3,bone material
-18,bones files
+19,bones files
 2,bones piles
 3,book of the dead
 4,boomerang
@@ -132,13 +136,13 @@ count,tag
 1,brood wasp
 2,brown pudding
 3,bullwhip
-4,calendar events
+5,calendar events
 6,camera
-18,cancellation
+21,cancellation
 8,candelabrum of invocation
 20,candle
 1,candle of invocation
-3,candy bar
+4,candy bar
 3,cannibalism
 4,can of grease
 1,captain
@@ -146,7 +150,7 @@ count,tag
 7,carry cap
 4,cartomancer
 2,cast from hit points
-11,castle
+12,castle
 6,cats
 1,cauldron
 15,caveman
@@ -164,7 +168,7 @@ count,tag
 9,chest
 1,chickatrice
 2,choking on food
-3,chromatic dragon
+4,chromatic dragon
 4,clairvoyance
 2,clay golem
 3,cleaver
@@ -178,15 +182,15 @@ count,tag
 1,cloth material
 2,clove of garlic
 4,club
-3,C monster class
+4,C monster class
 8,cockatrice
 7,cockatrice corpse
-73,code internals
+74,code internals
 14,cold
 5,cold resistance
 22,combat
-13,comestibles
-35,completely new system
+14,comestibles
+36,completely new system
 9,concealment
 8,conducts
 5,config file
@@ -194,7 +198,7 @@ count,tag
 10,conflict
 9,confused effect
 3,confuse monster
-16,confusion
+19,confusion
 6,consolidation
 8,constitution
 8,consumable renewable principle
@@ -203,7 +207,7 @@ count,tag
 3,convict
 1,cooking
 8,copper material
-57,corpse
+58,corpse
 1,corridor
 4,covetous
 5,crafting
@@ -221,27 +225,28 @@ count,tag
 2,crystal ball
 1,crystal chest
 4,crystal plate mail
-61,cursed behavior
+63,cursed behavior
 1,cursed effects
-8,curse items
-5,curse resistance
+9,curse items
+6,curse resistance
 6,customizable fruit
 2,customizable object
 2,dagger
-50,damage adjustments
-5,darkness
+51,damage adjustments
+6,darkness
 1,dark one
 4,dart
 4,dart trap
-5,deafness
+6,deafness
 23,death drops
 2,death ray
 10,death reasons
-4,decapitation
+1,debug fuzzer
+5,decapitation
 3,delicatessen
 2,demonbane
 3,demon gating
-26,demon lords
+27,demon lords
 18,demon monster class
 2,detect magic
 3,detect monsters
@@ -265,7 +270,7 @@ count,tag
 11,djinni
 3,d monster class
 21,D monster class
-3,dogs
+4,dogs
 10,donations
 34,doors
 6,door trap
@@ -275,7 +280,7 @@ count,tag
 16,dragon armor
 2,dragonbane
 4,dragon egg
-3,dragonhide material
+4,dragonhide material
 4,drain resistance
 7,drawbridge
 6,drowning
@@ -290,8 +295,8 @@ count,tag
 1,dwarvish cloak
 1,earth elemental
 3,earthquake
-8,eating
-5,eating non-food
+9,eating
+6,eating non-food
 13,egg
 12,elbereth
 1,electric eel
@@ -300,6 +305,7 @@ count,tag
 8,elf race
 1,elven arrow
 1,elven boots
+1,elven cloak
 2,elven dagger
 7,elves
 10,e monster class
@@ -309,11 +315,11 @@ count,tag
 2,enchantment spells
 4,encumbrance
 14,energy
-6,energy maximum
+7,energy maximum
 6,energy regeneration
 18,engrave action
-17,engravings
-14,engulfers
+18,engravings
+15,engulfers
 12,enlightenment
 2,ent
 2,erinys
@@ -327,8 +333,9 @@ count,tag
 18,experience level
 16,experience points
 1,explore mode
-13,explosion
+14,explosion
 2,extra attacks
+1,eye of vecna
 1,eyes of the overworld
 2,eyewear
 6,fake amulet of yendor
@@ -341,7 +348,7 @@ count,tag
 1,fedora
 1,felt marker
 10,figurine
-28,fire
+30,fire
 8,fire brand
 2,fire elemental
 2,fire giant
@@ -385,7 +392,7 @@ count,tag
 1,gauntlets of force
 2,gauntlets of power
 3,gaze attacks
-39,gehennom
+40,gehennom
 7,gelatinous cube
 2,gem magic
 21,gems
@@ -405,7 +412,7 @@ count,tag
 2,glass golem
 3,glass material
 1,glass piercer
-6,globs
+7,globs
 16,gloves
 4,g monster class
 9,G monster class
@@ -428,12 +435,12 @@ count,tag
 1,grand master
 5,grappling hook
 2,grass
-10,gravestone
+11,gravestone
 4,graveyard
-6,gray stones
+7,gray stones
 2,grayswandir
-16,grease
-4,green slime
+17,grease
+6,green slime
 5,gremlin
 1,grenade
 1,grimtooth
@@ -443,7 +450,7 @@ count,tag
 2,haggling
 3,half physical damage
 3,half spell damage
-37,hallucination
+38,hallucination
 1,hallucination resistance
 3,hand-and-a-half weapon
 5,harassment
@@ -463,7 +470,7 @@ count,tag
 4,high priest
 2,high score list
 1,hippocrates
-14,hit point maximum
+15,hit point maximum
 3,h monster class
 15,H monster class
 3,hobbit
@@ -481,14 +488,16 @@ count,tag
 4,hunger intrinsic
 17,hunger rate
 3,hurtling
-9,ice
+10,ice
 4,ice box
 2,ice devil
 2,ice queen's realm
 36,identification
+1,idol of moloch
 4,illiterate
 2,illithid race
 5,illness
+1,imbuing
 3,imp
 5,implemented in dnethack
 19,implemented in evilhack
@@ -501,15 +510,16 @@ count,tag
 1,implemented in unnethack
 32,implemented in vanilla
 124,implemented in xnethack
-2,infidel
+1,incantifier race
+5,infidel
 2,infravision
 22,instadeath
-10,intelligence
-40,interface
+12,intelligence
+42,interface
 24,intrinsics
-21,invisibility
+22,invisibility
 2,invisible stalker
-3,invocation
+4,invocation
 28,invoke
 1,iron ball
 10,iron bars
@@ -527,9 +537,10 @@ count,tag
 1,javelins
 1,jewelry store
 3,j monster class
-4,jousting
+5,jousting
 3,juiblex
-6,jumping
+7,jumping
+1,jumping boots
 1,jumping spider
 3,katana
 10,key
@@ -543,7 +554,7 @@ count,tag
 1,knife
 8,knight
 2,knight quest
-15,knockback
+17,knockback
 2,kobold shaman
 1,k-ration
 3,ladders
@@ -554,7 +565,7 @@ count,tag
 10,large box
 17,lava
 3,lawful
-9,leash
+10,leash
 1,leather armor
 1,leather golem
 1,leather material
@@ -567,7 +578,7 @@ count,tag
 6,level drain
 5,level flags
 74,level generation
-12,levelport
+14,levelport
 9,level sounds
 2,level teleporter
 7,levitation
@@ -583,7 +594,7 @@ count,tag
 22,light sources
 2,lithivore
 4,livelog
-4,lizard
+5,lizard
 2,lizard monster class
 4,L monster class
 10,loadstone
@@ -596,12 +607,14 @@ count,tag
 1,lord carnarvon
 2,lord surtur
 2,low boots
-31,luck
+32,luck
+1,luckblade
 8,luckstone
 3,lurker above
 10,lycanthropy
 1,mace
-6,magical breathing
+1,maggot
+7,magical breathing
 4,magicbane
 6,magic cancellation
 1,magic candle
@@ -625,24 +638,24 @@ count,tag
 2,master assassin
 2,master kaen
 6,master key of thievery
-3,master mind flayer
+4,master mind flayer
 1,master of thieves
 4,mattock
 3,maze
 3,meatball
 1,meat ring
 1,meat stick
-1,medusa
+2,medusa
 24,melee combat
 1,mephisto
 101,messages
 2,messagetype
 3,metal material
 2,milky potion
-11,mind flayer
+12,mind flayer
 1,mindless
 4,mines' end
-10,minetown
+11,minetown
 3,minigame
 8,mirror
 1,mithril coats
@@ -654,7 +667,7 @@ count,tag
 6,m movement prefix
 9,moloch
 1,moloch's sanctum
-27,money
+29,money
 28,monk
 2,monk quest
 95,monster ai
@@ -662,7 +675,7 @@ count,tag
 6,monster command
 27,monster difficulty
 9,monster eating
-40,monster generation
+41,monster generation
 6,monster group spawning
 53,monster internals
 21,monster item use
@@ -671,7 +684,7 @@ count,tag
 1,monster riding
 7,monster size
 1,monster sounds
-25,monster spell
+19,monster spell
 28,monster starting inventory
 17,monster status effects
 6,monster tunneling
@@ -687,31 +700,32 @@ count,tag
 7,musical instruments
 4,mysterious force
 1,nalzok
-11,naming monsters
+12,naming monsters
 9,nazgul
 1,nearlook
 2,neutral
-119,new artifact
+124,new artifact
 3,new attack type
 16,new branch
-15,new command
-20,new conduct
+17,new command
+21,new conduct
 8,new damage type
 7,new dungeon feature
 1,new game mode
 1,new glyph
 18,new intrinsic
-111,new monster
-181,new object
+113,new monster
+8,new monster spell
+185,new object
 29,new option
-7,new race
+8,new race
 2,new randomized appearance
 15,new role
-8,new shop type
+9,new shop type
 11,new skill
 25,new special level
 19,new special room
-44,new spell
+42,new spell
 3,newt
 11,new terrain type
 4,new themed room
@@ -722,8 +736,8 @@ count,tag
 1,non-living monsters
 3,non-poisonous cloud
 2,non-spell books
-3,nurse
-27,nutrition
+4,nurse
+28,nutrition
 5,object display
 30,object generation
 18,object properties
@@ -746,11 +760,11 @@ count,tag
 3,orc race
 1,orcrist
 5,orc shaman
-12,orctown
+14,orctown
 1,orcus
 1,orthogonal movement
 5,overview
-13,pacification
+14,pacification
 1,packrat
 1,pancake
 5,pantheon
@@ -761,12 +775,12 @@ count,tag
 1,parrot
 6,passive attacks
 3,passtune
-19,peaceful monsters
+20,peaceful monsters
 2,pear
 20,pet ai
-10,pet eating
+11,pet eating
 18,petrification
-54,pets
+57,pets
 2,phasing
 8,pick-axe
 2,pill
@@ -778,7 +792,7 @@ count,tag
 11,planes
 1,platinum material
 1,platinum yendorian express card
-8,player death
+9,player death
 10,player fear system
 16,player monster
 3,p monster class
@@ -813,7 +827,7 @@ count,tag
 12,potion of oil
 1,potion of orcish war juice
 6,potion of polymorph
-8,potion of restore ability
+9,potion of restore ability
 3,potion of see invisible
 5,potion of sickness
 2,potion of sleeping
@@ -826,7 +840,7 @@ count,tag
 2,prayer timeout
 15,price
 1,priest quest
-21,priest role
+22,priest role
 1,prisoner
 8,probing
 2,protection from shape changers
@@ -849,7 +863,7 @@ count,tag
 4,quest nemesis
 1,quiver
 1,quivering blob
-2,quiver item
+3,quiver item
 19,race benefits
 3,random events
 20,randomized description effect
@@ -860,7 +874,7 @@ count,tag
 14,rays
 1,red dragon
 1,red mold
-16,references
+17,references
 14,reflection
 1,regeneration intrinsic
 2,rest action
@@ -868,7 +882,7 @@ count,tag
 6,restore ability
 15,resurrection
 6,riders
-17,riding
+18,riding
 1,ring mail
 1,ring of adornment
 1,ring of aggravate monster
@@ -886,7 +900,7 @@ count,tag
 6,ring of sustain ability
 1,ring of three wishes
 4,ring of warning
-34,rings
+35,rings
 7,r monster class
 3,R monster class
 9,rock
@@ -910,14 +924,15 @@ count,tag
 5,rust monster
 5,rust trap
 1,saber
-1,sack
-16,sacrifice
+2,sack
+17,sacrifice
 30,sacrifice gifts
 4,saddle
 1,salamander
 6,samurai
 1,sanctuary
 2,sandestin
+1,sapphire
 1,scale mail
 2,scalpel
 24,scaring
@@ -934,7 +949,7 @@ count,tag
 1,scroll of earth
 4,scroll of enchant armor
 4,scroll of enchant weapon
-3,scroll of fire
+4,scroll of fire
 1,scroll of food detection
 3,scroll of genocide
 1,scroll of gold detection
@@ -955,7 +970,7 @@ count,tag
 41,scrolls
 1,scumming
 1,sea dragon
-7,sea monster class
+9,sea monster class
 7,search action
 1,searching
 8,searching intrinsic
@@ -976,7 +991,7 @@ count,tag
 4,shields
 3,shimmering dragon
 1,shirts
-5,shock resistance
+6,shock resistance
 38,shopkeepers
 6,shoplifting
 23,shops
@@ -992,13 +1007,13 @@ count,tag
 8,sitting
 7,skeleton
 32,skills
-50,skill scaling
+52,skill scaling
 17,sleeping
 1,sleeping gas trap
 1,sleep resistance
-7,sliming
+9,sliming
 3,sling
-6,slippery fingers
+7,slippery fingers
 1,small mimic
 1,small shield
 1,smite targeting
@@ -1016,12 +1031,12 @@ count,tag
 4,special level parser
 3,special levels
 4,special room
-2,special spells
+3,special spells
 1,spectre
-30,speed
-1,speed boots
+31,speed
+2,speed boots
 45,spellbooks
-31,spellcasting
+33,spellcasting
 13,spell levels
 1,spell maintenance
 1,spell of charm monster
@@ -1031,7 +1046,7 @@ count,tag
 1,spell of create monster
 3,spell of cure blindness
 1,spell of cure sickness
-1,spell of detect food
+2,spell of detect food
 1,spell of detect monsters
 1,spell of detect unseen
 2,spell of dig
@@ -1039,7 +1054,7 @@ count,tag
 3,spell of extra healing
 1,spell of finger of death
 5,spell of fireball
-3,spell of force bolt
+4,spell of force bolt
 2,spell of haste self
 3,spell of healing
 1,spell of identify
@@ -1058,8 +1073,8 @@ count,tag
 2,spell of turn undead
 1,spell of web
 4,spell of wizard lock
-8,spell retention
-2,spell staves
+9,spell retention
+3,spell staves
 1,spiked pit
 2,spoilers
 2,spotted jelly
@@ -1067,7 +1082,7 @@ count,tag
 3,squeaky board
 5,staff of aesculapius
 11,stairs
-18,starting equipment
+19,starting equipment
 6,starting knowledge
 5,starting pet
 8,starting stats
@@ -1117,7 +1132,7 @@ count,tag
 2,tengu
 2,terrain command
 1,themed rooms
-11,the watch
+12,the watch
 4,throne room
 11,thrones
 3,tiger
@@ -1138,7 +1153,7 @@ count,tag
 5,touchstone
 12,tourist
 2,tourist quest
-7,towel
+8,towel
 11,training
 10,trap door
 3,trapper
@@ -1188,13 +1203,13 @@ count,tag
 17,vision
 7,vlad's tower
 1,vlad the impaler
-8,v monster class
+9,v monster class
 14,V monster class
-10,vomiting
+11,vomiting
 11,vorpal blade
-20,waking monsters
+21,waking monsters
 10,walls
-3,wand of cancellation
+4,wand of cancellation
 3,wand of cold
 1,wand of create monster
 2,wand of death
@@ -1222,13 +1237,13 @@ count,tag
 2,wand skill
 2,wards
 3,war hammer
-6,warning
+7,warning
 3,warning of monster type
 6,warping
-21,water
+22,water
 11,water damage
 4,water demon
-5,water elemental
+6,water elemental
 2,water moccasin
 6,water nymph
 2,water troll
@@ -1239,7 +1254,7 @@ count,tag
 17,web
 20,weight
 1,werebane
-9,werecreatures
+10,werecreatures
 1,werejackal
 1,wererat
 1,werewolf
@@ -1248,7 +1263,7 @@ count,tag
 1,wind
 2,windowport
 10,wisdom
-24,wishing
+25,wishing
 12,wishing for non-objects
 6,wish parser
 5,wizard mode
