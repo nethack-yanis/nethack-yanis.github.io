@@ -19,8 +19,6 @@ defaults:
 collections:
   yanis:
     output: true
-  bigideas:
-    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

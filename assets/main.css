@@ -90,19 +90,9 @@ section.post {
     display:block;
     overflow:auto;
 }
-section.post.bigidea {
-    border-bottom: none;
-    margin-top: 0.5em;
-    text-align:justify;
-}
 div.righttitle {
     display: inline;
     float: right;
-}
-section.post.bigidea div.righttitle {
-    /* overrule the previous rules */
-    display: block;
-    float: none;
 }
 div.authors {
     display: inline;
@@ -131,10 +121,6 @@ h3.yanititle {
 .intended {
     display:block;
     margin-bottom: 0.2em;
-}
-
-section.bigidea h3 {
-    margin-bottom: 0;
 }
 
 h3.tagsubsection {

@@ -1,30 +1,24 @@
-<section class="post {% if bigidea %}bigidea{% endif %}">
+<section class="post">
   <div class="firstline">
-    {% if bigidea %}
-      <h2 class="yanititle">{{ yani.title }}</h2>
-    {% else %}
-      <h3 class="yanititle">
-        <a href="/yanis/{{yani.title}}.html">#{{ yani.title }}</a>
-      </h3>
-    {% endif %}
+    <h3 class="yanititle">
+      <a href="/yanis/{{yani.title}}.html">#{{ yani.title }}</a>
+    </h3>
     <div class="righttitle">
       <div class="authors">
         {% for author in yani.authors %}
           {% include linkedauthor.html %}
         {% endfor %}
       </div>
-      {% unless bigidea %}
-        &nbsp;&middot;&nbsp;
-        <div class="intended">
-        {% if yani.categories.size != 0 %}
-            {% for variant in yani.categories %}
-              <span class="variant {{ variant | replace: " " "" }}">{{ variant }}</span>
-            {% endfor %}
-        {% else %}
-          <span class="variant vanilla">vanilla</span>
-        {% endif %}
-        </div>
-      {% endunless %}
+      &nbsp;&middot;&nbsp;
+      <div class="intended">
+      {% if yani.categories.size != 0 %}
+          {% for variant in yani.categories %}
+            <span class="variant {{ variant | replace: " " "" }}">{{ variant }}</span>
+          {% endfor %}
+      {% else %}
+        <span class="variant vanilla">vanilla</span>
+      {% endif %}
+      </div>
     </div>
   </div>
   <div class="yanicontent">
