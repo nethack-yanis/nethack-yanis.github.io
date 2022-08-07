@@ -15,11 +15,15 @@ if [ -z "$1" ]; then
   tagsearch=false
 elif [ "$1" == "--showall" ]; then
     files=$(grep -rl "$2" _yanis)
-    cat $files | less
+    more $files | less
     exit 0
 elif [ "$1" == "--full" ]; then
   # full text search
   files=$(grep -rl "$2" _yanis)
+  tagsearch=true
+elif [ "$1" == "--empty" ]; then
+  # find improperly tagged files with an empty tag
+  files=$(grep -rl "^tags.*, *[][,]" _yanis)
   tagsearch=true
 else
   # tag search

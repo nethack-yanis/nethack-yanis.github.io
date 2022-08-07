@@ -46,9 +46,12 @@ This is a GitHub Pages site that hosts a repository of NetHack design ideas.
    add it. A pre-commit hook already exists for this, but make sure NOT to
    commit changes to this file if doing some maintenance commit that doesn't add
    new ideas.
-10. Update the date range and the YANI starting number in `recent.html`, then
+10. Every thousand ideas or so, update the \_data/low_volume_exclude.yml file.
+    It should contain tags that are 1) variant-specific and 2) only appear
+    once. This helps prevent overcrowding in the tags list page.
+11. Update the date range and the YANI starting number in `recent.html`, then
     git add it.
-11. Git commit and write the commit message. A standard commit adding new ideas
+12. Git commit and write the commit message. A standard commit adding new ideas
     should contain four pieces of information in its commit message, in this
     order:
     1. The date of the most recently added idea.
