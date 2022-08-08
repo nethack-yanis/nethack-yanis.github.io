@@ -27,7 +27,7 @@ count,tag
 22,ammo
 8,ammo breakage
 4,amnesia
-19,a monster class
+20,a monster class
 16,A monster class
 4,amulet of change
 1,amulet of drain resistance
@@ -65,7 +65,7 @@ count,tag
 2,artificer role
 7,ascension
 2,ascension kit
-20,ascension run
+19,ascension run
 7,asmodeus
 3,asmodeus' lair
 24,astral plane
@@ -136,7 +136,7 @@ count,tag
 1,breaking wands
 3,breath meter
 3,breath weapons
-5,bribing
+6,bribing
 1,brood wasp
 2,brown pudding
 3,bullwhip
@@ -151,7 +151,7 @@ count,tag
 5,can of grease
 1,captain
 2,carrot
-8,carry cap
+8,carrying capacity
 6,cartomancer
 2,cast from hit points
 12,castle
@@ -192,7 +192,7 @@ count,tag
 7,cockatrice corpse
 77,code internals
 16,cold
-8,cold resistance
+9,cold resistance
 24,combat
 15,comestibles
 49,completely new system
@@ -416,7 +416,7 @@ count,tag
 6,gender
 2,general store
 17,genocide
-1,geryon
+2,geryon
 25,ghost
 1,ghoul
 1,giant mimic
@@ -527,7 +527,7 @@ count,tag
 2,implemented in tnnt
 1,implemented in unnethack
 35,implemented in vanilla
-127,implemented in xnethack
+130,implemented in xnethack
 1,incantifier race
 6,infidel
 2,infravision
@@ -648,7 +648,7 @@ count,tag
 7,magic marker
 3,magic mirror of merlin
 3,magic missile
-15,magic portal
+16,magic portal
 13,magic resistance
 7,magic trap
 7,magic whistle
@@ -701,7 +701,7 @@ count,tag
 10,monster eating
 44,monster generation
 6,monster group spawning
-59,monster internals
+60,monster internals
 22,monster item use
 7,monster magic resistance
 3,monster player symmetry
@@ -723,7 +723,7 @@ count,tag
 6,mummy wrapping
 1,murder
 9,musical instruments
-5,mysterious force
+4,mysterious force
 1,nalzok
 1,naming artifacts
 13,naming monsters
@@ -989,7 +989,7 @@ count,tag
 1,scroll of food detection
 3,scroll of genocide
 1,scroll of gold detection
-12,scroll of identify
+13,scroll of identify
 2,scroll of knowledge
 5,scroll of light
 4,scroll of magic mapping
