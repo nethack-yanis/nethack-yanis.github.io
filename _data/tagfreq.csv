@@ -136,7 +136,7 @@ count,tag
 1,breaking wands
 3,breath meter
 3,breath weapons
-6,bribing
+5,bribing
 1,brood wasp
 2,brown pudding
 3,bullwhip
@@ -148,7 +148,7 @@ count,tag
 1,candle of invocation
 6,candy bar
 4,cannibalism
-5,can of grease
+6,can of grease
 1,captain
 2,carrot
 8,carrying capacity
@@ -252,7 +252,7 @@ count,tag
 4,delicatessen
 3,demonbane
 4,demon gating
-32,demon lords
+31,demon lords
 21,demon monster class
 1,dented pot
 3,detect magic
@@ -408,7 +408,7 @@ count,tag
 1,gauntlets of force
 2,gauntlets of power
 3,gaze attacks
-46,gehennom
+45,gehennom
 8,gelatinous cube
 2,gem magic
 23,gems
@@ -425,7 +425,7 @@ count,tag
 2,giantslayer
 5,giant spider
 1,gjallar
-2,glass golem
+3,glass golem
 4,glass material
 1,glass piercer
 7,globs
@@ -526,8 +526,8 @@ count,tag
 15,implemented in splicehack
 2,implemented in tnnt
 1,implemented in unnethack
-35,implemented in vanilla
-130,implemented in xnethack
+38,implemented in vanilla
+131,implemented in xnethack
 1,incantifier race
 6,infidel
 2,infravision
@@ -648,7 +648,7 @@ count,tag
 7,magic marker
 3,magic mirror of merlin
 3,magic missile
-16,magic portal
+15,magic portal
 13,magic resistance
 7,magic trap
 7,magic whistle
@@ -855,7 +855,7 @@ count,tag
 5,potion of levitation
 1,potion of monster detection
 2,potion of object detection
-16,potion of oil
+17,potion of oil
 1,potion of orcish war juice
 9,potion of polymorph
 10,potion of restore ability
@@ -1197,7 +1197,7 @@ count,tag
 23,tools
 1,torch
 3,tortle race
-5,touchstone
+6,touchstone
 15,tourist
 2,tourist quest
 10,towel
