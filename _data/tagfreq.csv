@@ -599,6 +599,7 @@ count,tag
 1,lenses
 15,leprechaun
 1,leprechaun hall
+3,lethe water
 6,level difficulty
 6,level drain
 6,level flags
@@ -1293,13 +1294,12 @@ count,tag
 8,warning
 3,warning of monster type
 6,warping
-24,water
-14,water damage
+15,water damage
 4,water demon
 7,water elemental
 2,water moccasin
 6,water nymph
-1,water terrain
+24,water terrain
 2,water troll
 2,water walking
 5,water walking boots
