@@ -44,11 +44,7 @@ for file in $files; do
     fi
     echo
     if echo "$yn" | grep -q '[Yy ]'; then
-        if $tagsearch; then
-            vim $file '+normal 5G8|'
-        else
-            vim $file '+normal 5G8|' '+startinsert'
-        fi
+        vim $file '+normal 5G8|'
     elif echo "$yn" | grep -q '[Qq]'; then
         break;
     fi
