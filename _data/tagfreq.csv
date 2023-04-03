@@ -135,7 +135,7 @@ count,tag
 5,boomerang
 14,boots
 45,boulder
-7,bow
+9,bow
 1,brainlessness
 1,branchport
 2,brass lantern
@@ -1080,8 +1080,10 @@ count,tag
 27,sinks
 9,sitting
 9,skeleton
-46,skills
+14,skill caps
+32,skills
 59,skill scaling
+5,skill unrestricting
 20,sleeping
 2,sleeping gas trap
 7,sleep resistance
