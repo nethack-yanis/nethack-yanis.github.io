@@ -30,11 +30,13 @@ This is a GitHub Pages site that hosts a repository of NetHack design ideas.
    add the author if they're not already there. If the new one doesn't add
    anything new, ignore it.
 6. Once all new ideas have been collected and written into the \_yanis
-   directory, it's time to start preparing the commit. First check for any typos
-   or questionable new additions with authors/tags by running
+   directory, it's time to start preparing the commit. First check for any
+   questionable new additions with authors/tags by running
    `tag_author_generator.sh --print-tags | grep NEW` and
    `tag-author-generator.sh --print-authors | grep NEW`. If there are any wrong
-   inclusions, remove them.
+   inclusions such as typos, alternate names for existing tags, or tags that on
+   second thought really don't deserve to be an entire tag, use tagadder.sh to
+   go into the idea that uses that tag and fix them.
 7. Run `tag_author_generator.sh --write-both` to actually create the tag and
    author pages. Make sure to save the lists of new tags and authors for the
    commit message. (At some point this process should probably be turned into a
