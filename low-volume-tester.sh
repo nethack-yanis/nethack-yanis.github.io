@@ -8,7 +8,7 @@
 TEMPFILE1="/tmp/lv_tagfreq.csv"
 TEMPFILE2="/tmp/sorted_tagfreq.csv"
 
-sed 's/^- /1,/' _data/low_volume_exclude.yml | sort > $TEMPFILE1
+sed -e '/^#/ d' -e 's/^- /1,/' _data/low_volume_exclude.yml | sort > $TEMPFILE1
 sort _data/tagfreq.csv > $TEMPFILE2
 
 # now both TEMPFILEs should be in the same format and sorted

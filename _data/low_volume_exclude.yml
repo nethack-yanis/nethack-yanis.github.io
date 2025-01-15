@@ -1,3 +1,7 @@
+# This file contains tags that are excluded from being shown on the page that
+# lists "all" tags. Currently the criteria for a tag to be on this list is:
+# 1. It must be about a feature that only exists in variants.
+# 2. It must appear only once across all ideas.
 - alignment quest
 - amalgamation
 - atlatl
