@@ -2,22 +2,25 @@
 # lists "all" tags. Currently the criteria for a tag to be on this list is:
 # 1. It must be about a feature that only exists in variants.
 # 2. It must appear only once across all ideas.
-- alignment quest
 - amalgamation
+- ashmar
 - atlatl
 - auton
 - baby owlbear
+- barding
 - bearded axe
 - big stick
 - black speech
 - bullets
 - candle of invocation
 - cauldron
+- cave lizard
 - chaos quest
 - chromatic dragon scales
 - cocytus
-- dead tree
 - dichotomy
+- dirge
+- dramborleg
 - elder minotaur
 - evil eye
 - falcon
@@ -29,6 +32,7 @@
 - gjallar
 - goblin king
 - gold bug
+- graz'zt
 - hammer of the gods
 - healthstone
 - herbs
@@ -47,19 +51,26 @@
 - marathon mode
 - mephisto
 - moonstone
+- neothelid
+- noble quest
 - packrat
 - parrot
 - potion of amnesia
 - potion of blood
 - potion of orcish war juice
 - potion of starlight
+- psuedodragon
 - ring of three wishes
 - rod
+- scroll of magic detection
 - scroll of time
 - sea dragon
 - secespita
 - seven deadly sins
+- shackle
 - sharur
+- shield of light
+- slumber hulk
 - snow golem
 - sonic attacks
 - soul transference
@@ -80,5 +91,6 @@
 - wand of healing
 - wand of water
 - wand of wind
+- war-helm of the dreaming
 - wind
 - xiuhcoatl
