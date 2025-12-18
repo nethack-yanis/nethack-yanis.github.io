@@ -14,4 +14,5 @@ sort _data/tagfreq.csv > $TEMPFILE2
 # now both TEMPFILEs should be in the same format and sorted
 # show only lines unique to low_volume_exclude.yml, which indicates that the
 # assumed "1," from being in that file is no longer in tagfreq
+echo 'The following lines are currently in low_volume_exclude.yml but appear at least twice across all ideas:'
 comm -23 $TEMPFILE1 $TEMPFILE2 | sed 's/^1,//'
