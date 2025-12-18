@@ -33,7 +33,7 @@ This is a GitHub Pages site that hosts a repository of NetHack design ideas.
    directory, it's time to start preparing the commit. First check for any
    questionable new additions with authors/tags by running
    `tag_author_generator.sh --print-tags | grep NEW` and
-   `tag-author-generator.sh --print-authors | grep NEW`. If there are any wrong
+   `tag_author_generator.sh --print-authors | grep NEW`. If there are any wrong
    inclusions such as typos, alternate names for existing tags, or tags that on
    second thought really don't deserve to be an entire tag, use tagadder.sh to
    go into the idea that uses that tag and fix them.
