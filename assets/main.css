@@ -212,9 +212,9 @@ main div.tags > a > span {
     background-color: #d3d3d3;
 }
 .UnNetHack, .bhaak {
-    background-color: #ffff00;
+    background-color: #ffd700;
 }
-.dNetHack, .Chris_ANG, .NeroOneTrueKing, .Tarmunora, .rikersan, .Demo {
+.dNetHack, .Chris_ANG, .NeroOneTrueKing, .Tarmunora, .rikersan, .Demo, .Noisytoot {
     background-color: #ee82ee;
 }
 .NetHack4, .ais523 {
@@ -241,6 +241,6 @@ main div.tags > a > span {
 .EvilHack, .K2 {
     background-color: #eb2d53;
 }
-.HackEM, .hackemslashem {
+.HackEM, .hackemslashem, .malor {
     background-color: #7fffd4;
 }
