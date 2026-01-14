@@ -61,6 +61,10 @@ if [ $authors != $NOTHING ]; then
 fi
 
 # Tags can contain spaces; don't let this break the looping.
+# TODO: Use `ls tag | sed 's/.html//' | sort > /tmp/files` to
+# construct a list of tags according to file names, and compare against the list
+# of tags actually found in YANIs below to highlight files which represent
+# unused tags, and delete them in --write-both.
 if [ $tags != $NOTHING ]; then
   SAVEDIFS=$IFS
   IFS=$(echo -en "\n\b")
