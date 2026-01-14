@@ -3,6 +3,9 @@ someone might submit YANIs to this repo via a pull request. This file documents
 guidelines for style and format that are useful for both external contributions
 and internal maintenance.
 
+This is a curated repository. Please do not take offense if ideas you submit get
+edited or rejected.
+
 ### File organization
 
 For each idea you want to add, first check that it actually deserves a new
@@ -75,6 +78,9 @@ Examples:
   "vanilla" either. This should be categorized as "object materials patch", a
   feature set that multiple variants have in common, but "SpliceHack" would also
   be OK.
+- Someone proposed a feature for EvilHack. The author of EvilHack immediately
+  said "I am not going to do this" in response. The idea should still get
+  listed, and categorized as EvilHack.
 
 Another convention if describing a multi-variant feature not widely known as its
 own patch, is to tag it as "vanilla" but preface the text with "For variants
@@ -97,6 +103,19 @@ does it just *involve* the tag subject? Examples:
   but tagging it "grid bug" is NOT correct since the idea does not suggest
   changing grid bugs - they are only present as a shorthand for what the desired
   behavior looks like.
+- YANI #258: "Levitation cast at Expert skill, or a blessed potion of
+  levitation, should grant flight instead of levitation." This should get tagged
+  "spell of levitation" and "potion of levitation" and "flying", but NOT
+  "levitation" since it proposes to *remove* that as an effect in certain
+  circumstances.
+- YANI #318: add a scroll of polymorph and describe its effects for each
+  beatitude. This does NOT get tagged "blessed behavior" or "cursed behavior"
+  because although it does describe those, the idea's about a new item that
+  doesn't have existing blessed or cursed behavior to modify.
+- A YANI that describes a general nerf to teleportation wands and mentions the
+  motivation for the change is making the Astral Plane tougher. Unless the wands
+  would be *specifically* nerfed only on the Astral Plane, the idea should not
+  be tagged "astral plane".
 
 It can help to write the full text of the idea out and then write the tags.
 
@@ -151,9 +170,20 @@ it doesn't get ambiguous. An example of ambiguity to avoid would be "you can use
 your intelligence to beat this monster" where it's not clear if it means the
 Intelligence stat or the player's own intelligence.
 
+#### Incomplete ideas
+
+While there is some minimum of fleshing out an idea must have in order to appear
+on the site, it's not necessary for ideas to provide all the details of their
+implementation. The typical convention when big detail is missing is to mention
+them as "not specified" or "unspecified".
+
 #### Formatting
 
 The text of the idea should be wrapped to 80 characters wide. (This does not
 affect the rendered HTML). Note that this does NOT apply to the front matter;
 the tags, authors, and category should remain on one line no matter how long it
 is.
+
+Use redundancy when using a `<span>` element with the nhsym class, for
+accessiblity. For instance, `The Wizard of Yendor appears as a magenta
+<span class="nhsym clr-magenta">@</span>`.
