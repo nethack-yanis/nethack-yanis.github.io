@@ -11,6 +11,7 @@
 - baby owlbear
 - bearded axe
 - big stick
+- binder role
 - black speech
 - bullets
 - candle of invocation
@@ -23,11 +24,11 @@
 - dark elven hand crossbow
 - dichotomy
 - dramborleg
-- druid quest
 - elder minotaur
 - evil eye
 - falcon
 - felt marker
+- floor coatings
 - firearms
 - flame mage
 - fossil
@@ -43,7 +44,6 @@
 - herbs
 - ice mage
 - idol of moloch
-- incantifier race
 - itlachiayaque
 - jumping spider
 - lamb
@@ -53,9 +53,7 @@
 - lyre of orpheus
 - magic 8-ball
 - magical eye
-- marathon mode
 - mephisto
-- mistletoe
 - moonstone
 - noble quest
 - packrat
@@ -64,13 +62,13 @@
 - potion of amnesia
 - potion of blood
 - potion of orcish war juice
+- potion of phasing
 - potion of starlight
 - psuedodragon
 - purgatory
 - ring of three wishes
 - rod
 - roundshield
-- sand terrain
 - scroll of magic detection
 - scroll of time
 - sea dragon
@@ -85,9 +83,11 @@
 - spear trap
 - spectre
 - spell maintenance
+- spell of create grass
 - spell of summon elemental
 - spell of web
 - staff of evocation
+- starting character restrictions
 - stomping boots
 - striped shirt
 - studied intrinsic
@@ -101,5 +101,4 @@
 - wand of water
 - wand of wind
 - war-helm of the dreaming
-- wind
 - xiuhcoatl

@@ -3,13 +3,24 @@ layout: default
 ---
 <h2>Recently Added Ideas</h2>
 <p>
-  This is the latest batch of YANIs, spanning from November 17, 2024 to December 8, 2025. It contains ONLY EVILHACK IDEAS. Non-EvilHack ideas from this time range will be posted soon.
+  This is the latest batch of YANIs, spanning from November 17, 2024 to December 8, 2025.
 </p>
 {% comment %}
 EDIT THE WHERE_EXP CLAUSE TO THE NEW FIRST IDEA ADDED
 {% endcomment %}
-{% assign yanisbynum = site.yanis | group_by_exp: "item", "item.title | to_integer" | where_exp: "item", "item.name >= 4845" | sort: "name" %}
+{% assign yanisbynum = site.yanis | group_by_exp: "item", "item.title | to_integer" | where_exp: "item", "item.name >= 4907" | sort: "name" %}
 {% for item in yanisbynum %}
   {% assign yani = item.items[0] %}
   {% include yanitemplate.html %}
 {% endfor %}
+<p>
+  Below here are YANIs that were substantially expanded on in this update.
+</p>
+{% include yanitemplate.html yani = 167 %}
+{% include yanitemplate.html yani = 258 %}
+{% include yanitemplate.html yani = 1969 %}
+{% include yanitemplate.html yani = 4288 %}
+{% include yanitemplate.html yani = 4364 %}
+{% include yanitemplate.html yani = 4440 %}
+{% include yanitemplate.html yani = 4669 %}
+{% include yanitemplate.html yani = 4794 %}
