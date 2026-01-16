@@ -214,7 +214,7 @@ main div.tags > a > span {
 .UnNetHack, .bhaak {
     background-color: #ffd700;
 }
-.dNetHack, .Chris_ANG, .NeroOneTrueKing, .Tarmunora, .rikersan, .Demo, .Noisytoot {
+.dNetHack, .NotdNetHack, .Chris_ANG, .NeroOneTrueKing, .Tarmunora, .rikersan, .Demo, .Noisytoot {
     background-color: #ee82ee;
 }
 .NetHack4, .ais523 {
@@ -235,7 +235,7 @@ main div.tags > a > span {
 .xNetHack, .aosdict {
     background-color: #7cfc00;
 }
-.SpliceHack, .AntiGulp {
+.SpliceHack {
     background-color: #66cd00;
 }
 .EvilHack, .K2 {
@@ -243,4 +243,7 @@ main div.tags > a > span {
 }
 .HackEM, .hackemslashem, .malor {
     background-color: #7fffd4;
+}
+.CrecelleHack, .AntiGulp {
+    background-color: #ff9090;
 }
