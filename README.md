@@ -53,8 +53,11 @@ This is a GitHub Pages site that hosts a repository of NetHack design ideas.
     prevent overcrowding in the tags list webpage.
 11. Run `low-volume-tester.sh` to print tags that don't belong in
     low_volume_exclude.yml anymore. Delete those tags from that file.
-12. Update the date range and the YANI starting number in `recent.html`, then
-    git add it.
+12. Update the date range and the YANI starting number in `recent.html`. Then go
+    through the output of `git diff --cached \_yanis`, identify YANIs which are
+    not new additions but which had substantial added text, and change the
+    definition of `customarray` to the numbers of all such YANIs. Finally, git
+    add `recent.html`.
 13. Git commit and write the commit message. A standard commit adding new ideas
     should contain four pieces of information in its commit message, in this
     order:

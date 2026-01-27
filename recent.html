@@ -16,11 +16,9 @@ EDIT THE WHERE_EXP CLAUSE TO THE NEW FIRST IDEA ADDED
 <p>
   Below here are YANIs that were substantially expanded on in this update.
 </p>
-{% include yanitemplate.html yani = 167 %}
-{% include yanitemplate.html yani = 258 %}
-{% include yanitemplate.html yani = 1969 %}
-{% include yanitemplate.html yani = 4288 %}
-{% include yanitemplate.html yani = 4364 %}
-{% include yanitemplate.html yani = 4440 %}
-{% include yanitemplate.html yani = 4669 %}
-{% include yanitemplate.html yani = 4794 %}
+{% assign customarray = "167 258 1969 4288 4364 4440 4669 4794" | split: " " %}
+{% assign document = site.yanis | where_exp: "item", "customarray contains item.title" %}
+{% for yani in document %}
+  {% include yanitemplate.html %}
+{% endfor %}
+
